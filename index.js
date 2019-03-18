@@ -1,3 +1,12 @@
+$.ajax({
+    url: 'answerUsersnainai.json',
+    statusCode: {
+        404: function() {
+            console.log("page not found");
+        }
+    }
+});
+
 $.getJSON('answerUsers.json', function(allSpanUserJson) {
     $.getJSON('monthlyAnswers_2019_03_18.json', function(json) {
         console.log(json);
@@ -66,3 +75,5 @@ function calc() {
         return [];
     }
 }
+
+calc();
