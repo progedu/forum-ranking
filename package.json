@@ -1,0 +1,14 @@
+{
+  "name": "forum-ranking",
+  "version": "1.0.0",
+  "description": "N予備校のフォーラムの回答数ランキング",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "N予備校"
+  ],
+  "author": "折原ダビデ竜",
+  "license": "ISC"
+}
