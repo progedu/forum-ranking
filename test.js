@@ -76,6 +76,7 @@ function fetchForumAPI(offset, limit) {
                 await browser.close();
                 return resolve('sucsess and contiune');
             } catch (e) {
+                await browser.close();
                 return reject(e);
             }
         })();
