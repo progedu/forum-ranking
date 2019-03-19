@@ -10,5 +10,10 @@
     "N予備校"
   ],
   "author": "折原ダビデ竜",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.23",
+    "puppeteer": "^1.13.0",
+    "puppeteer-core": "^1.13.0"
+  }
 }
