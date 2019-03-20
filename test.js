@@ -13,7 +13,7 @@ function fetchForumAPI(offset, limit) {
     console.log(`offset = ${offset}, limit = ${limit}`);
     return new Promise(function(resolve, reject) {
         (async() => {
-            const browser = await puppeteer.launch();
+            const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
             try {
                 const page = await browser.newPage();
                 const response = await page.goto(`https://api.nnn.ed.nico/v1/questions?offset=${offset}&limit=${limit}`);
