@@ -37,15 +37,15 @@ jobs:
             git commit -m "Circle CI updates files."
             git push origin master
 
-#workflows:
-#   version: 2
-#   nightly:
-#     triggers:
-#       - schedule:
-#           cron: "0 0 * * *"
-#           filters:
-#             branches:
-#               only:
-#                 - master
-#     jobs:
-#       - build
+workflows:
+  version: 2
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 19 * * *"
+            filters:
+              branches:
+                only:
+                  - master
+    jobs:
+      - build
