@@ -48,12 +48,13 @@ function fetchForumAPI(offset, limit) {
                     for (let answer of contest.answers) {
                         const answerUserId = answer.user.id;
                         const answerUserName = answer.user.name;
+                        const answerUserIcon = answer.user.icon;
                         if (questionUserId === answerUserId) {
                             continue;
                         }
 
                         if (!answersManyMap.has(answerUserId)) { // 新規
-                            answersManyMap.set(answerUserId, { answerUserName, answerMany: 1 });
+                            answersManyMap.set(answerUserId, { answerUserName, answerMany: 1, answerUserIcon });
                         } else { // 重複
                             const answerManyObj = answersManyMap.get(answerUserId);
                             answerManyObj.answerMany += 1;
@@ -63,7 +64,7 @@ function fetchForumAPI(offset, limit) {
 
                     for (let [answerUserId, answerManyObj] of answersManyMap) {
                         if (!answerUsersMap.has(answerUserId)) { // 新規
-                            answerUsersMap.set(answerUserId, { userName: answerManyObj.answerUserName, total: answerManyObj.answerMany, answeredQuestionMany: 1 });
+                            answerUsersMap.set(answerUserId, { userName: answerManyObj.answerUserName, total: answerManyObj.answerMany, answeredQuestionMany: 1, icon: answerManyObj.answerUserIcon });
                         } else { // 重複
                             const answerUser = answerUsersMap.get(answerUserId);
                             answerUser.total += answerManyObj.answerMany;

@@ -2,8 +2,8 @@ function calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson) {
     // 全期間
     const ranking50 = allSpanUserJson.slice(0, 50);
     // 今月
-    const monthlyRanking50 = monthlyAnswersNewJson.slice(0, 50);
-    const monthlyRanking50_old = monthlyAnswersOldJson.slice(0, 50);
+    const monthlyRanking50 = monthlyAnswersNewJson.slice(0, 30);
+    const monthlyRanking50_old = monthlyAnswersOldJson.slice(0, 30);
 
     // 変更を反映させる。
     for (let [nowRank, nowValue] of monthlyRanking50.entries()) {
