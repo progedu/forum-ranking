@@ -1,21 +1,21 @@
 [
    {
+      "userId": "2398821",
+      "userName": "あさづけ",
+      "total": 30,
+      "answeredQuestionMany": 21
+   },
+   {
       "userId": "30494311",
       "userName": "折原ダビデ竜 先生",
       "total": 27,
       "answeredQuestionMany": 21
    },
    {
-      "userId": "2398821",
-      "userName": "あさづけ",
-      "total": 26,
-      "answeredQuestionMany": 19
-   },
-   {
       "userId": "57082582",
       "userName": "N予備校 運営",
-      "total": 11,
-      "answeredQuestionMany": 10
+      "total": 13,
+      "answeredQuestionMany": 12
    },
    {
       "userId": "27531832",
@@ -42,21 +42,27 @@
       "answeredQuestionMany": 5
    },
    {
+      "userId": "8788891",
+      "userName": "tatuya",
+      "total": 8,
+      "answeredQuestionMany": 4
+   },
+   {
       "userId": "67888543",
       "userName": "種子島",
       "total": 4,
       "answeredQuestionMany": 4
    },
    {
-      "userId": "8788891",
-      "userName": "tatuya",
-      "total": 7,
-      "answeredQuestionMany": 3
-   },
-   {
       "userId": "66760760",
       "userName": "yuya",
       "total": 4,
+      "answeredQuestionMany": 3
+   },
+   {
+      "userId": "27011864",
+      "userName": "たき",
+      "total": 3,
       "answeredQuestionMany": 3
    },
    {
@@ -68,6 +74,12 @@
    {
       "userId": "19435406",
       "userName": "kuro",
+      "total": 4,
+      "answeredQuestionMany": 2
+   },
+   {
+      "userId": "65584810",
+      "userName": "カクレくま",
       "total": 4,
       "answeredQuestionMany": 2
    },
@@ -96,14 +108,20 @@
       "answeredQuestionMany": 2
    },
    {
-      "userId": "79640749",
-      "userName": "ryo",
+      "userId": "63450230",
+      "userName": "coaxial",
+      "total": 3,
+      "answeredQuestionMany": 2
+   },
+   {
+      "userId": "52556497",
+      "userName": "高橋 廣敏",
       "total": 2,
       "answeredQuestionMany": 2
    },
    {
-      "userId": "62957299",
-      "userName": "森田亮一朗",
+      "userId": "81765048",
+      "userName": "gnotes_sound_",
       "total": 2,
       "answeredQuestionMany": 2
    },
@@ -114,20 +132,20 @@
       "answeredQuestionMany": 2
    },
    {
-      "userId": "52556497",
-      "userName": "高橋 廣敏",
-      "total": 2,
-      "answeredQuestionMany": 2
-   },
-   {
-      "userId": "27011864",
-      "userName": "たき",
-      "total": 2,
-      "answeredQuestionMany": 2
-   },
-   {
       "userId": "87694698",
       "userName": "takke",
+      "total": 2,
+      "answeredQuestionMany": 2
+   },
+   {
+      "userId": "62957299",
+      "userName": "森田亮一朗",
+      "total": 2,
+      "answeredQuestionMany": 2
+   },
+   {
+      "userId": "79640749",
+      "userName": "ryo",
       "total": 2,
       "answeredQuestionMany": 2
    },
@@ -138,44 +156,14 @@
       "answeredQuestionMany": 1
    },
    {
-      "userId": "88236831",
-      "userName": "宅浪生",
-      "total": 2,
-      "answeredQuestionMany": 1
-   },
-   {
-      "userId": "86662439",
-      "userName": "KOU?",
-      "total": 2,
-      "answeredQuestionMany": 1
-   },
-   {
       "userId": "652986",
       "userName": "うまい棒めんたい",
       "total": 2,
       "answeredQuestionMany": 1
    },
    {
-      "userId": "84454979",
-      "userName": "rrrrrrrrruka",
-      "total": 2,
-      "answeredQuestionMany": 1
-   },
-   {
-      "userId": "67625841",
-      "userName": "flea",
-      "total": 2,
-      "answeredQuestionMany": 1
-   },
-   {
-      "userId": "62966640",
-      "userName": "小倉　悠司",
-      "total": 2,
-      "answeredQuestionMany": 1
-   },
-   {
-      "userId": "80731818",
-      "userName": "perokiro",
+      "userId": "88236831",
+      "userName": "宅浪生",
       "total": 2,
       "answeredQuestionMany": 1
    },
@@ -186,38 +174,50 @@
       "answeredQuestionMany": 1
    },
    {
-      "userId": "19452174",
-      "userName": "フグハフィッシュ",
-      "total": 1,
+      "userId": "84454979",
+      "userName": "rrrrrrrrruka",
+      "total": 2,
       "answeredQuestionMany": 1
    },
    {
-      "userId": "36551030",
-      "userName": "Y",
-      "total": 1,
+      "userId": "80731818",
+      "userName": "perokiro",
+      "total": 2,
       "answeredQuestionMany": 1
    },
    {
-      "userId": "77182969",
-      "userName": "shimarisu232",
-      "total": 1,
+      "userId": "62966640",
+      "userName": "小倉　悠司",
+      "total": 2,
       "answeredQuestionMany": 1
    },
    {
-      "userId": "66341275",
-      "userName": "内藤 法胤",
-      "total": 1,
+      "userId": "86662439",
+      "userName": "KOU?",
+      "total": 2,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "11186150",
+      "userName": "マイマイ",
+      "total": 2,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "57109445",
+      "userName": "そーくん",
+      "total": 2,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "67625841",
+      "userName": "flea",
+      "total": 2,
       "answeredQuestionMany": 1
    },
    {
       "userId": "88371804",
       "userName": "アンドロイド",
-      "total": 1,
-      "answeredQuestionMany": 1
-   },
-   {
-      "userId": "12112225",
-      "userName": "長弓(おさゆみ)",
       "total": 1,
       "answeredQuestionMany": 1
    },
@@ -228,8 +228,38 @@
       "answeredQuestionMany": 1
    },
    {
-      "userId": "63450230",
-      "userName": "coaxial",
+      "userId": "36551030",
+      "userName": "Y",
+      "total": 1,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "19452174",
+      "userName": "フグハフィッシュ",
+      "total": 1,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "66341275",
+      "userName": "内藤 法胤",
+      "total": 1,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "12112225",
+      "userName": "長弓(おさゆみ)",
+      "total": 1,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "77182969",
+      "userName": "shimarisu232",
+      "total": 1,
+      "answeredQuestionMany": 1
+   },
+   {
+      "userId": "79141502",
+      "userName": "ヤマカサ",
       "total": 1,
       "answeredQuestionMany": 1
    },
