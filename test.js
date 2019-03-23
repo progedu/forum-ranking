@@ -109,7 +109,8 @@ function writeToJsonFile(answerUsersMap, fileName) {
             userId,
             userName: answerObj.userName,
             total: answerObj.total,
-            answeredQuestionMany: answerObj.answeredQuestionMany
+            answeredQuestionMany: answerObj.answeredQuestionMany,
+            icon: answerObj.icon
         };
         outPutJSON.push(pushObj);
     }
