@@ -28,12 +28,18 @@ function display(ranking50, monthlyRanking50) {
         const liDom = $('<li>', {
             class: 'list-group-item'
         });
+        const imgDom = $('<img>', {
+            src: userObj.icon,
+            width: "48px",
+            css: { float: "left", marginRight: "10px" }
+        });
         const div1Dom = $('<div>', {
             text: '' + (index + 1) + '位　' + userObj.userName + ' さん　' + userObj.change
         });
         const div2Dom = $('<div>', {
             text: '回答件数: ' + userObj.answeredQuestionMany + ' 総合回数: ' + userObj.total
         });
+        liDom.append(imgDom);
         liDom.append(div1Dom);
         liDom.append(div2Dom);
         $('ul#monthly-ranking').append(liDom);
