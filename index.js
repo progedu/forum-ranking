@@ -33,13 +33,24 @@ function display(ranking50, monthlyRanking50) {
             width: "48px",
             css: { float: "left", marginRight: "10px" }
         });
-        const div1Dom = $('<div>', {
-            text: '' + (index + 1) + '位　' + userObj.userName + ' さん　' + userObj.change
+        let badgeHTML = ``;
+        if (userObj.change === '↑') {
+            badgeHTML = `<span class="badge badge-danger">${userObj.change}</span>`;
+        } else if (userObj.change === '↓') {
+            badgeHTML = `<span class="badge badge-primary">${userObj.change}</span>`;
+        }
+        const rankDom = $('<span>', {
+            html: '' + (index + 1) + `位 ${badgeHTML}`,
+            css: { marginRight: "10px" }
+        });
+        const div1Dom = $('<span>', {
+            text: userObj.userName + ` さん`
         });
         const div2Dom = $('<div>', {
             text: '回答件数: ' + userObj.answeredQuestionMany + ' 総合回数: ' + userObj.total
         });
         liDom.append(imgDom);
+        liDom.append(rankDom);
         liDom.append(div1Dom);
         liDom.append(div2Dom);
         $('ul#monthly-ranking').append(liDom);
