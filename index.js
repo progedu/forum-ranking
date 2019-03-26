@@ -47,7 +47,7 @@ function display(ranking50, monthlyRanking50) {
             text: userObj.userName + ` さん`
         });
         const div2Dom = $('<div>', {
-            text: '回答フォーラム件数: ' + userObj.answeredQuestionMany + ' 回答数: ' + userObj.total
+            text: '回答したフォーラムの数: ' + userObj.answeredQuestionMany + ' 回答数: ' + userObj.total
         });
         liDom.append(imgDom);
         liDom.append(rankDom);
@@ -69,7 +69,7 @@ function display(ranking50, monthlyRanking50) {
             text: '' + (index + 1) + '位　' + userObj.userName + ' さん'
         });
         const div2Dom = $('<div>', {
-            text: '回答フォーラム件数: ' + userObj.answeredQuestionMany + ' 回答数: ' + userObj.total
+            text: '回答したフォーラムの数: ' + userObj.answeredQuestionMany + ' 回答数: ' + userObj.total
         });
         liDom.append(imgDom);
         liDom.append(div1Dom);
