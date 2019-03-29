@@ -47,7 +47,7 @@ function display(ranking50, monthlyRanking50) {
             text: userObj.userName + ` さん`
         });
         const div2Dom = $('<div>', {
-            text: '貢献フォーラム数: ' + userObj.answeredQuestionMany + ' 回答数: ' + userObj.total
+            text: `貢献フォーラム数: ${userObj.answeredQuestionMany} 回答数: ${userObj.total}`
         });
         liDom.append(imgDom);
         liDom.append(rankDom);
