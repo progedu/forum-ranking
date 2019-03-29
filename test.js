@@ -4,6 +4,7 @@ const fs = require('fs');
 
 const LIMIT_MAX = 50;
 const answerUsersMap = new Map();
+const noAnswerQuestions = [];
 console.log('today is ' + moment().tz("Asia/Tokyo").format('YYYY-MM-DD HH:mm'));
 const thisYear = moment().tz("Asia/Tokyo").format('YYYY');
 const thisMonth = moment().tz("Asia/Tokyo").format('MM');
@@ -29,9 +30,15 @@ function fetchForumAPI(offset, limit) {
                 }
 
                 for (let contest of contentsJson.questions) {
+                    const questionId = contest.id;
+                    const title = contest.title;
+                    const tags = contest.tags;
                     const questionUserId = contest.user.id;
                     const questionUserName = contest.user.name;
+                    const isResolved = contest.is_resolved;
+                    const answersCount = contest.answers_count;
                     const questionTimeStamp = contest.created_at;
+
                     const questionTimeYear = moment(questionTimeStamp * 1000).tz("Asia/Tokyo").format('YYYY');
                     const questionTimeMonth = moment(questionTimeStamp * 1000).tz("Asia/Tokyo").format('MM');
                     if (writeToMonthFileFlag === true && (questionTimeYear !== thisYear || questionTimeMonth !== thisMonth)) {
@@ -42,8 +49,12 @@ function fetchForumAPI(offset, limit) {
                         writeToJsonFile(answerUsersMap, 'monthlyAnswers_new.json');
                     }
 
-                    const answersManyMap = new Map();
+                    if (isResolved == false && answersCount == 0 && tags.indexOf('運営') < 0) { // 未回答＆未解決の質問の時
+                        noAnswerQuestions.push({ id: questionId, title, tags });
+                    }
 
+
+                    const answersManyMap = new Map();
 
                     for (let answer of contest.answers) {
                         const answerUserId = answer.user.id;
@@ -126,6 +137,7 @@ function fetchConroler(offset) {
         if (nonQuestionAnswers === 'finish!') {
             console.log('crowring finish');
             writeToJsonFile(answerUsersMap, 'answerUsers.json');
+            fs.writeFileSync('noAnswerQuestions.json', JSON.stringify(noAnswerQuestions, null, '   '));
             return;
         }
 

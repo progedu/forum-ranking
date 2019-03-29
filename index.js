@@ -78,11 +78,40 @@ function display(ranking50, monthlyRanking50) {
     }
 }
 
+function displayQuestionLinks(noAnswerQuestions) {
+    for (let [index, questionObj] of noAnswerQuestions.entries()) {
+        const aDom = $('<a>', {
+            href: `https://www.nnn.ed.nico/questions/${questionObj.id}`,
+            class: 'list-group-item list-group-item-action',
+            target: '_blank'
+        });
+        const divDom = $('<div>', {
+            text: 'タグ: '
+        });
+        const tagSpan = $('<span>', {
+            text: '【' + questionObj.tags + '】',
+            style: 'background: linear-gradient(transparent 70%, #ff0 0%);'
+        });
+        divDom.append(tagSpan);
+        const pDom = $('<p>', {
+            text: questionObj.title,
+            style: 'font-size: 80%; line-height: 1.5; margin-top: 5px; margin-bottom: 0px;'
+        });
+        aDom.append(divDom);
+        aDom.append(pDom);
+        $('div#questionLinks').append(aDom);
+    }
+}
+
+
 $.getJSON('answerUsers.json', function(allSpanUserJson) {
     $.getJSON('monthlyAnswers_new.json', function(monthlyAnswersNewJson) {
         $.getJSON('monthlyAnswers_old.json', function(monthlyAnswersOldJson) {
-            const [ranking50, monthlyRanking50] = calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson);
-            display(ranking50, monthlyRanking50);
+            $.getJSON('noAnswerQuestions.json', function(noAnswerQuestions) {
+                const [ranking50, monthlyRanking50] = calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson);
+                display(ranking50, monthlyRanking50);
+                displayQuestionLinks(noAnswerQuestions);
+            });
         });
     });
 });
