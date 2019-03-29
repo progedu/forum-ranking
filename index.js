@@ -104,12 +104,12 @@ function displayQuestionLinks(noAnswerQuestions) {
 }
 
 
-$.getJSON('answerUsers.json', function(allSpanUserJson) {
-    $.getJSON('monthlyAnswers_new.json', function(monthlyAnswersNewJson) {
-        $.getJSON('monthlyAnswers_old.json', function(monthlyAnswersOldJson) {
+$.getJSON('monthlyAnswers_new.json', function(monthlyAnswersNewJson) {
+    $.getJSON('monthlyAnswers_old.json', function(monthlyAnswersOldJson) {
+        $.getJSON('answerUsers.json', function(allSpanUserJson) {
+            const [ranking50, monthlyRanking50] = calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson);
+            display(ranking50, monthlyRanking50);
             $.getJSON('noAnswerQuestions.json', function(noAnswerQuestions) {
-                const [ranking50, monthlyRanking50] = calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson);
-                display(ranking50, monthlyRanking50);
                 displayQuestionLinks(noAnswerQuestions);
             });
         });
