@@ -10,34 +10,33 @@
 </head>
 
 <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class=" d-flex align-items-center p-3 my-3 text-white-50 rounded shadow-sm" style="background-color: white">
-            <a href="https://www.nnn.ed.nico/">
-                <img src="assets/logo-n.svg" class="mr-3">
-            </a>
-            <button type="button" class="nav-item btn btn-outline-info mx-2" onclick="location.href='https://www.nnn.ed.nico/questions'">フォーラム</button>
-            <button type="button" class="nav-item btn btn-outline-danger mx-2" onclick="location.href='https://www.nnn.ed.nico/'">大学受験</button>
-            <button type="button" class="nav-item btn btn-outline-primary mx-2" onclick="location.href='https://www.nnn.ed.nico/questions'">プログラミング</button>
-            <button type="button" class="nav-item btn btn-outline-warning mx-2" onclick="location.href='https://www.nnn.ed.nico/questions'">Web デザイン</button>
-        </div>
+    <nav class="navbar navbar-light bg-white">
+        <a href="https://www.nnn.ed.nico/" class="navbar-brand">
+            <img src="assets/logo-n.svg">
+        </a>
+        <button type="button" class="navbar-item btn btn-outline-info" onclick="location.href='https://www.nnn.ed.nico/questions'">フォーラム</button>
+        <button type="button" class="navbar-item btn btn-outline-danger" onclick="location.href='https://www.nnn.ed.nico/'">大学受験</button>
+        <button type="button" class="navbar-item btn btn-outline-primary" onclick="location.href='https://www.nnn.ed.nico/questions'">プログラミング</button>
+        <button type="button" class="navbar-item btn btn-outline-warning" onclick="location.href='https://www.nnn.ed.nico/questions'">Web デザイン</button>
     </nav>
 
     <div class="container">
         <div class="row">
-            <div class="col-md" style="padding-right: 8px; padding-left: 8px;">
-                <h3>月間フォーラム名誉会員</h3>
+            <div class="col-md bg-primary px-2" style="margin-right: 6px; margin-left: 6px;">
+                <h3 class="text-white my-3 font-weight-bold" style="text-align: center">月間フォーラム名誉会員</h3>
                 <ul class="list-group list-group-flush" id="monthly-ranking"></ul>
             </div>
-            <div class="col-md" style="padding-right: 8px; padding-left: 8px;">
-                <h3>全期間フォーラム名誉会員</h3>
+            <div class="col-md bg-success px-2" style="margin-right: 6px; margin-left: 6px;">
+                <h3 class="text-white my-3 font-weight-bold" style="text-align: center">全期間フォーラム名誉会員</h3>
                 <ul class="list-group list-group-flush" id="all-ranking"></ul>
             </div>
-            <div class="col-md" style="padding-right: 8px; padding-left: 8px;">
-                <h3>まだ回答の無い質問</h3>
+            <div class="col-md bg-info px-2" style="margin-right: 6px; margin-left: 6px;">
+                <h3 class="text-white my-3 font-weight-bold" style="text-align: center">まだ回答の無い質問</h3>
                 <div class="list-group" id="questionLinks"></div>
             </div>
         </div>
     </div>
+
     <script src="assets/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
