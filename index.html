@@ -10,6 +10,7 @@
 </head>
 
 <body class="bg-light">
+
     <nav class="navbar navbar-light bg-white">
         <a href="https://www.nnn.ed.nico/" class="navbar-brand">
             <img src="assets/logo-n.svg">
@@ -20,17 +21,26 @@
         <button type="button" class="navbar-item btn btn-outline-warning" onclick="location.href='https://www.nnn.ed.nico/questions'">Web デザイン</button>
     </nav>
 
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="monthly-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">月間</a>
+            <a class="nav-item nav-link" id="totaly-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">全期間</a>
+            <a class="nav-item nav-link" id="unaswered-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">未回答</a>
+        </div>
+    </nav>
+
+
     <div class="container">
         <div class="row">
-            <div class="col-md bg-primary px-2" style="margin-right: 6px; margin-left: 6px;">
+            <div class="col-md bg-primary px-2 pb-2" style="margin-right: 6px; margin-left: 6px;" id="monthly-div">
                 <h3 class="text-white my-3 font-weight-bold" style="text-align: center">月間フォーラム名誉会員</h3>
                 <ul class="list-group list-group-flush" id="monthly-ranking"></ul>
             </div>
-            <div class="col-md bg-success px-2" style="margin-right: 6px; margin-left: 6px;">
+            <div class="col-md bg-success px-2 pb-2" style="margin-right: 6px; margin-left: 6px;" id="totaly-div">
                 <h3 class="text-white my-3 font-weight-bold" style="text-align: center">全期間フォーラム名誉会員</h3>
                 <ul class="list-group list-group-flush" id="all-ranking"></ul>
             </div>
-            <div class="col-md bg-info px-2" style="margin-right: 6px; margin-left: 6px;">
+            <div class="col-md bg-info px-2 pb-2" style="margin-right: 6px; margin-left: 6px;" id="questions-div">
                 <h3 class="text-white my-3 font-weight-bold" style="text-align: center">まだ回答の無い質問</h3>
                 <div class="list-group" id="questionLinks"></div>
             </div>

@@ -24,36 +24,45 @@ function calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson) {
 }
 
 function display(ranking50, monthlyRanking50) {
-    for (let [index, userObj] of monthlyRanking50.entries()) {
-        const liDom = $('<li>', {
-            class: 'list-group-item'
+    if (monthlyRanking50.length === 0) {
+        const divDom = $('<div>', {
+            text: '今月の回答者はまだいません',
+            css: { color: "white", textAlign: "center", borderStyle: "solid", borderColor: "white", margin: "5px", paddingTop: "20px", paddingBottom: "20px" }
         });
-        const imgDom = $('<img>', {
-            src: userObj.icon,
-            width: "48px",
-            css: { float: "left", marginRight: "10px" }
-        });
-        let badgeHTML = ``;
-        if (userObj.change === '↑') {
-            badgeHTML = `<span class="badge badge-danger">${userObj.change}</span>`;
-        } else if (userObj.change === '↓') {
-            badgeHTML = `<span class="badge badge-primary">${userObj.change}</span>`;
+        $('ul#monthly-ranking').append(divDom);
+    } else {
+
+        for (let [index, userObj] of monthlyRanking50.entries()) {
+            const liDom = $('<li>', {
+                class: 'list-group-item'
+            });
+            const imgDom = $('<img>', {
+                src: userObj.icon,
+                width: "48px",
+                css: { float: "left", marginRight: "10px" }
+            });
+            let badgeHTML = ``;
+            if (userObj.change === '↑') {
+                badgeHTML = `<span class="badge badge-danger">${userObj.change}</span>`;
+            } else if (userObj.change === '↓') {
+                badgeHTML = `<span class="badge badge-primary">${userObj.change}</span>`;
+            }
+            const rankDom = $('<span>', {
+                html: '' + (index + 1) + `位 ${badgeHTML}`,
+                css: { marginRight: "10px" }
+            });
+            const div1Dom = $('<span>', {
+                text: userObj.userName + ` さん`
+            });
+            const div2Dom = $('<div>', {
+                text: `貢献フォーラム数: ${userObj.answeredQuestionMany} 回答数: ${userObj.total}`
+            });
+            liDom.append(imgDom);
+            liDom.append(rankDom);
+            liDom.append(div1Dom);
+            liDom.append(div2Dom);
+            $('ul#monthly-ranking').append(liDom);
         }
-        const rankDom = $('<span>', {
-            html: '' + (index + 1) + `位 ${badgeHTML}`,
-            css: { marginRight: "10px" }
-        });
-        const div1Dom = $('<span>', {
-            text: userObj.userName + ` さん`
-        });
-        const div2Dom = $('<div>', {
-            text: `貢献フォーラム数: ${userObj.answeredQuestionMany} 回答数: ${userObj.total}`
-        });
-        liDom.append(imgDom);
-        liDom.append(rankDom);
-        liDom.append(div1Dom);
-        liDom.append(div2Dom);
-        $('ul#monthly-ranking').append(liDom);
     }
 
     for (let [index, userObj] of ranking50.entries()) {
@@ -114,4 +123,17 @@ $.getJSON('monthlyAnswers_new.json', function(monthlyAnswersNewJson) {
             });
         });
     });
+});
+
+
+$('#monthly-tab').on('click', function(e) {
+    $('div.col-md').eq(0).before($('#monthly-div'));
+});
+
+$('#totaly-tab').on('click', function(e) {
+    $('div.col-md').eq(0).before($('#totaly-div'));
+});
+
+$('#unaswered-tab').on('click', function(e) {
+    $('div.col-md').eq(0).before($('#questions-div'));
 });
