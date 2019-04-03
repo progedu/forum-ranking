@@ -44,7 +44,8 @@ function fetchForumAPI(offset, limit) {
                     if (writeToMonthFileFlag === true && (questionTimeYear !== thisYear || questionTimeMonth !== thisMonth)) {
                         writeToMonthFileFlag = false;
                         console.log('copy file new to old.');
-                        fs.copyFileSync('monthlyAnswers_new.json', 'monthlyAnswers_old.json');
+                        fs.copyFileSync('dataFiles/monthlyAnswers_new.json', 'dataFiles/monthlyAnswers_old.json');
+                        // fs.copyFileSync('dataFiles/monthlyAnswers_new_30.json', 'dataFiles/monthlyAnswers_old_30.json');
                         console.log('write monthly file to new.');
                         writeToJsonFile(answerUsersMap, 'monthlyAnswers_new.json');
                     }
@@ -128,7 +129,15 @@ function writeToJsonFile(answerUsersMap, fileName) {
 
     outPutJSON = sortAnswersData(outPutJSON);
 
-    fs.writeFileSync(fileName, JSON.stringify(outPutJSON, null, '   '));
+    fs.writeFileSync(`dataFiles/${fileName}`, JSON.stringify(outPutJSON, null, '   '));
+
+    if (fileName === 'monthlyAnswers_new.json') {
+        fs.writeFileSync(`dataFiles/${fileName}`.replace('.json', '_30.json'), JSON.stringify(outPutJSON.slice(0, 30), null, '   '));
+    }
+
+    if (fileName === 'answerUsers.json') {
+        fs.writeFileSync(`dataFiles/${fileName}`.replace('.json', '_50.json'), JSON.stringify(outPutJSON.slice(0, 50), null, '   '));
+    }
 }
 
 function fetchConroler(offset) {

@@ -24,6 +24,10 @@ function calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson) {
 }
 
 function display(ranking50, monthlyRanking50) {
+
+    // ローデイングの削除
+    $('div.loading-circle').remove();
+
     if (monthlyRanking50.length === 0) {
         const divDom = $('<div>', {
             text: '今月の回答者はまだいません',
@@ -113,12 +117,12 @@ function displayQuestionLinks(noAnswerQuestions) {
 }
 
 
-$.getJSON('monthlyAnswers_new.json', function(monthlyAnswersNewJson) {
-    $.getJSON('monthlyAnswers_old.json', function(monthlyAnswersOldJson) {
-        $.getJSON('answerUsers.json', function(allSpanUserJson) {
+$.getJSON('dataFiles/monthlyAnswers_new.json', function(monthlyAnswersNewJson) {
+    $.getJSON('dataFiles/monthlyAnswers_old.json', function(monthlyAnswersOldJson) {
+        $.getJSON('dataFiles/answerUsers.json', function(allSpanUserJson) {
             const [ranking50, monthlyRanking50] = calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson);
             display(ranking50, monthlyRanking50);
-            $.getJSON('noAnswerQuestions.json', function(noAnswerQuestions) {
+            $.getJSON('dataFiles/noAnswerQuestions.json', function(noAnswerQuestions) {
                 displayQuestionLinks(noAnswerQuestions);
             });
         });
