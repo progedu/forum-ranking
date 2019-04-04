@@ -146,7 +146,7 @@ function fetchConroler(offset) {
         if (nonQuestionAnswers === 'finish!') {
             console.log('crowring finish');
             writeToJsonFile(answerUsersMap, 'answerUsers.json');
-            fs.writeFileSync('noAnswerQuestions.json', JSON.stringify(noAnswerQuestions, null, '   '));
+            fs.writeFileSync('dataFiles/noAnswerQuestions.json', JSON.stringify(noAnswerQuestions, null, '   '));
             return;
         }
 
