@@ -45,7 +45,7 @@ function fetchForumAPI(offset, limit) {
                         writeToMonthFileFlag = false;
                         console.log('copy file new to old.');
                         fs.copyFileSync('dataFiles/monthlyAnswers_new.json', 'dataFiles/monthlyAnswers_old.json');
-                        // fs.copyFileSync('dataFiles/monthlyAnswers_new_30.json', 'dataFiles/monthlyAnswers_old_30.json');
+                        fs.copyFileSync('dataFiles/monthlyAnswers_new_30.json', 'dataFiles/monthlyAnswers_old_30.json');
                         console.log('write monthly file to new.');
                         writeToJsonFile(answerUsersMap, 'monthlyAnswers_new.json');
                     }
