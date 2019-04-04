@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>N予備校フォーラムランキング</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>N予備校 フォーラム名誉会員</title>
 </head>
 
 <body class="bg-light">
 
-    <nav class="navbar navbar-light bg-white">
+    <nav class="navbar navbar-light bg-white" style="overflow: hidden;">
         <a href="https://www.nnn.ed.nico/" class="navbar-brand">
             <img src="assets/images/logo-n.svg">
         </a>
         <button type="button" class="navbar-item btn btn-outline-info" onclick="location.href='https://www.nnn.ed.nico/questions'">フォーラム</button>
         <button type="button" class="navbar-item btn btn-outline-danger" onclick="location.href='https://www.nnn.ed.nico/'">大学受験</button>
-        <button type="button" class="navbar-item btn btn-outline-primary" onclick="location.href='https://www.nnn.ed.nico/questions'">プログラミング</button>
-        <button type="button" class="navbar-item btn btn-outline-warning" onclick="location.href='https://www.nnn.ed.nico/questions'">Web デザイン</button>
+        <button type="button" class="navbar-item btn btn-outline-primary" onclick="location.href='https://www.nnn.ed.nico/pages/programming/'">プログラミング</button>
+        <button type="button" class="navbar-item btn btn-outline-warning" onclick="location.href='https://www.nnn.ed.nico/pages/webdesign/'">Web デザイン</button>
     </nav>
 
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="monthly-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">月間</a>
-            <a class="nav-item nav-link" id="totaly-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">全期間</a>
-            <a class="nav-item nav-link" id="unaswered-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">未回答</a>
+            <a class="nav-item nav-link px-4 active" id="monthly-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">月間</a>
+            <a class="nav-item nav-link px-4" id="totaly-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">全期間</a>
+            <a class="nav-item nav-link px-4" id="unaswered-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">未回答</a>
         </div>
     </nav>
 
 
-    <div class="container">
+    <div class="container" style="margin-bottom: 50px;">
         <div class="row">
             <div class="col-md bg-primary px-2 pb-2" style="margin-right: 6px; margin-left: 6px;" id="monthly-div">
                 <h3 class="text-white my-3 font-weight-bold" style="text-align: center">月間フォーラム名誉会員</h3>
@@ -49,6 +50,15 @@
             </div>
         </div>
     </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-dark">
+        <a href="https://progedu.github.io/forum-ranking/" class="under-w">
+            <small class="text-white">N予備校 フォーラム名誉会員</small>
+        </a>
+        <div class="alert alert-success" role="alert" style="margin: 0px; padding: 4px 22px;">
+            <a href="https://github.com/progedu/forum-ranking" class="alert-link">GitHub</a>
+        </div>
+    </nav>
 
     <script src="assets/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
