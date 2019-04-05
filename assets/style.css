@@ -20,3 +20,26 @@ a.under-w::after {
 a.under-w:hover::after {
     transform: scale(1, 1);
 }
+
+a.under-u {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.under-u::after {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 8px;
+    background: #09F;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+
+a.under-u:hover::after {
+    transform: scale(1, 1);
+}

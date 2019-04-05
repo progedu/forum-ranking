@@ -8,18 +8,66 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>N予備校 フォーラム名誉会員</title>
+    <link rel="shortcut icon" href="assets/images/n_icon32.png">
 </head>
 
 <body class="bg-light">
 
-    <nav class="navbar navbar-light bg-white" style="overflow: hidden;">
-        <a href="https://www.nnn.ed.nico/" class="navbar-brand">
+
+    <!-- 他のデザインのナビゲーションバー
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <a href="https://www.nnn.ed.nico/" target="_blank"><img src="assets/images/logo-n.svg" class="mr-1"></a>
+        <a class="under-u" href="https://www.nnn.ed.nico/questions" target="_blank" style="text-align: center; padding: 8px 2px;">フォーラム</a>
+        <a class="under-u" href="hhttps://www.nnn.ed.nico/pages/programming/" target="_blank" style="text-align: center; padding: 8px 2px;">プログラミング</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="padding: 4px 6px;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link under-u" href="https://www.nnn.ed.nico/pages/webdesign/" target="_blank">Web デザイン</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link under-u" href="https://www.nnn.ed.nico/" target="_blank">大学受験</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand navbar-light bg-white">
+        <a class="navbar-brand" href="https://www.nnn.ed.nico/" target="_blank"><img src="assets/images/logo-n.svg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link under-u" href="https://www.nnn.ed.nico/questions" target="_blank" style="width: 100px;">フォーラム</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link under-u" href="https://www.nnn.ed.nico/" target="_blank" style="width: 80px;">大学受験</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link under-u" href="https://www.nnn.ed.nico/pages/programming/" target="_blank" style="width: 130px;">プログラミング</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link under-u" href="https://www.nnn.ed.nico/pages/webdesign/" target="_blank" style="width: 130px;">Web デザイン</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    -->
+
+    <nav class="navbar navbar-light bg-white">
+        <a href="https://www.nnn.ed.nico/" class="navbar-brand" target="_blank">
             <img src="assets/images/logo-n.svg">
         </a>
-        <button type="button" class="navbar-item btn btn-outline-info" onclick="location.href='https://www.nnn.ed.nico/questions'">フォーラム</button>
-        <button type="button" class="navbar-item btn btn-outline-danger" onclick="location.href='https://www.nnn.ed.nico/'">大学受験</button>
-        <button type="button" class="navbar-item btn btn-outline-primary" onclick="location.href='https://www.nnn.ed.nico/pages/programming/'">プログラミング</button>
-        <button type="button" class="navbar-item btn btn-outline-warning" onclick="location.href='https://www.nnn.ed.nico/pages/webdesign/'">Web デザイン</button>
+        <button type="button" class="navbar-item btn btn-outline-info" onclick="window.open('https://www.nnn.ed.nico/questions','_blank')">フォーラム</button>
+        <button type="button" class="navbar-item btn btn-outline-primary" onclick="window.open('https://www.nnn.ed.nico/pages/programming/','_blank')">プログラミング</button>
+        <button type="button" class="navbar-item btn btn-outline-warning" onclick="window.open('https://www.nnn.ed.nico/pages/webdesign/','_blank')">Web デザイン</button>
+        <button type="button" class="navbar-item btn btn-outline-danger" onclick="window.open('https://www.nnn.ed.nico/','_blank')">大学受験</button>
     </nav>
 
     <nav>
@@ -31,7 +79,7 @@
     </nav>
 
 
-    <div class="container" style="margin-bottom: 50px;">
+    <div class="container" style="margin-bottom: 50px; margin-top: 1px;">
         <div class="row">
             <div class="col-md bg-primary px-2 pb-2" style="margin-right: 6px; margin-left: 6px;" id="monthly-div">
                 <h3 class="text-white my-3 font-weight-bold" style="text-align: center">月間フォーラム名誉会員</h3>
@@ -55,7 +103,7 @@
         <a href="https://progedu.github.io/forum-ranking/" class="under-w">
             <small class="text-white">N予備校 フォーラム名誉会員</small>
         </a>
-        <div class="alert alert-success" role="alert" style="margin: 0px; padding: 4px 22px;">
+        <div class="alert alert-success" role="alert" style="margin: 0px 4px 0px 0px; padding: 4px 22px;">
             <a href="https://github.com/progedu/forum-ranking" class="alert-link">GitHub</a>
         </div>
     </nav>
