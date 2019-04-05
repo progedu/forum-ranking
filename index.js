@@ -1,34 +1,30 @@
-function calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson) {
-    // 全期間
-    const ranking50 = allSpanUserJson.slice(0, 50);
+function calc(monthlyAnswersNewJson, monthlyAnswersOldJson) {
     // 今月
-    const monthlyRanking50 = monthlyAnswersNewJson.slice(0, 30);
-    const monthlyRanking50_old = monthlyAnswersOldJson.slice(0, 30);
+    const monthlyRanking_new = monthlyAnswersNewJson.slice(0, 30);
+    const monthlyRanking_old = monthlyAnswersOldJson.slice(0, 30);
 
     // 変更を反映させる。
-    for (let [nowRank, nowValue] of monthlyRanking50.entries()) {
-        monthlyRanking50[nowRank].change = `↑`; // 過去にはいないということは上昇！
-        for (let [oldRank, oldValue] of monthlyRanking50_old.entries()) {
+    for (let [nowRank, nowValue] of monthlyRanking_new.entries()) {
+        monthlyRanking_new[nowRank].change = `↑`; // 過去にはいないということは上昇！
+        for (let [oldRank, oldValue] of monthlyRanking_old.entries()) {
             if (nowValue.userId === oldValue.userId) { // 発見！
                 if (nowRank > oldRank) {
-                    monthlyRanking50[nowRank].change = `↓`;
+                    monthlyRanking_new[nowRank].change = `↓`;
                 } else if (nowRank === oldRank) { // 不変;
-                    monthlyRanking50[nowRank].change = `-`;
+                    monthlyRanking_new[nowRank].change = `-`;
                 }
                 break;
             }
         }
     }
 
-    return [ranking50, monthlyRanking50];
+    return monthlyRanking_new;
 }
 
-function display(ranking50, monthlyRanking50) {
+function displayMonthly(monthlyRanking) {
+    $('div#loading-circle-monthly').remove(); // ローデイングの削除
 
-    // ローデイングの削除
-    $('div.loading-circle').remove();
-
-    if (monthlyRanking50.length === 0) {
+    if (monthlyRanking.length === 0) {
         const divDom = $('<div>', {
             text: '今月の回答者はまだいません',
             css: { color: "white", textAlign: "center", borderStyle: "solid", borderColor: "white", margin: "5px", paddingTop: "20px", paddingBottom: "20px" }
@@ -36,7 +32,7 @@ function display(ranking50, monthlyRanking50) {
         $('ul#monthly-ranking').append(divDom);
     } else {
 
-        for (let [index, userObj] of monthlyRanking50.entries()) {
+        for (let [index, userObj] of monthlyRanking.entries()) {
             const liDom = $('<li>', {
                 class: 'list-group-item'
             });
@@ -68,8 +64,12 @@ function display(ranking50, monthlyRanking50) {
             $('ul#monthly-ranking').append(liDom);
         }
     }
+}
 
-    for (let [index, userObj] of ranking50.entries()) {
+function displayAllSpan(allSpanUser) {
+    $('div#loading-circle-allspan').remove(); // ローデイングの削除
+
+    for (let [index, userObj] of allSpanUser.entries()) {
         const liDom = $('<li>', {
             class: 'list-group-item'
         });
@@ -92,6 +92,8 @@ function display(ranking50, monthlyRanking50) {
 }
 
 function displayQuestionLinks(noAnswerQuestions) {
+    $('div#loading-circle-question').remove(); // ローデイングの削除
+
     for (let [index, questionObj] of noAnswerQuestions.entries()) {
         const aDom = $('<a>', {
             href: `https://www.nnn.ed.nico/questions/${questionObj.id}`,
@@ -117,11 +119,12 @@ function displayQuestionLinks(noAnswerQuestions) {
 }
 
 
-$.getJSON('dataFiles/monthlyAnswers_new.json', function(monthlyAnswersNewJson) {
-    $.getJSON('dataFiles/monthlyAnswers_old.json', function(monthlyAnswersOldJson) {
-        $.getJSON('dataFiles/answerUsers.json', function(allSpanUserJson) {
-            const [ranking50, monthlyRanking50] = calc(allSpanUserJson, monthlyAnswersNewJson, monthlyAnswersOldJson);
-            display(ranking50, monthlyRanking50);
+$.getJSON('dataFiles/monthlyAnswers_new_30.json', function(monthlyAnswersNewJson) {
+    $.getJSON('dataFiles/monthlyAnswers_old_30.json', function(monthlyAnswersOldJson) {
+        const monthlyRanking = calc(monthlyAnswersNewJson, monthlyAnswersOldJson);
+        displayMonthly(monthlyRanking);
+        $.getJSON('dataFiles/answerUsers_50.json', function(allSpanUserJson) {
+            displayAllSpan(allSpanUserJson.slice(0, 50));
             $.getJSON('dataFiles/noAnswerQuestions.json', function(noAnswerQuestions) {
                 displayQuestionLinks(noAnswerQuestions);
             });
