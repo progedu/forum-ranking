@@ -55,7 +55,8 @@ function displayMonthly(monthlyRanking) {
                 text: userObj.userName + ` さん`
             });
             const div2Dom = $('<div>', {
-                text: `貢献フォーラム数: ${userObj.answeredQuestionMany} 回答数: ${userObj.total}`
+                text: `貢献フォーラム数 ${userObj.answeredQuestionMany}、回答数 ${userObj.total}`,
+                style: 'font-size: 98%;'
             });
             liDom.append(imgDom);
             liDom.append(rankDom);
@@ -79,10 +80,11 @@ function displayAllSpan(allSpanUser) {
             css: { float: "left", marginRight: "10px" }
         });
         const div1Dom = $('<div>', {
-            text: '' + (index + 1) + '位　' + userObj.userName + ' さん'
+            text: '' + (index + 1) + '位 ' + userObj.userName + ' さん'
         });
         const div2Dom = $('<div>', {
-            text: `貢献フォーラム数: ${userObj.answeredQuestionMany} 回答数: ${userObj.total}`
+            html: `貢献フォーラム数 ${userObj.answeredQuestionMany}、回答数 ${userObj.total}`,
+            style: 'font-size: 95%;'
         });
         liDom.append(imgDom);
         liDom.append(div1Dom);
@@ -101,7 +103,8 @@ function displayQuestionLinks(noAnswerQuestions) {
             target: '_blank'
         });
         const divDom = $('<div>', {
-            text: 'タグ: '
+            text: 'タグ: ',
+            style: 'font-size: 90%;'
         });
         const tagSpan = $('<span>', {
             text: '【' + questionObj.tags + '】',
@@ -144,3 +147,27 @@ $('#totaly-tab').on('click', function(e) {
 $('#unaswered-tab').on('click', function(e) {
     $('div.col-md').eq(0).before($('#questions-div'));
 });
+
+console.log(
+    ' %cＮ%c予備校 %c %cフ%cォ%cー%cラ%cム%c名%c誉%c会%c員%c ',
+    'font-weight: bold; font-size: 48px; color: #22AAFF;',
+    'font-weight: bold; font-size: 48px;',
+    'font-size: 48px; background-color: #1a1a1a;',
+    'font-size: 48px; background-color: #1a1a1a; color: red;',
+    'font-size: 48px; background-color: #1a1a1a; color: orange;',
+    'font-size: 48px; background-color: #1a1a1a; color: yellow;',
+    'font-size: 48px; background-color: #1a1a1a; color: greenyellow;',
+    'font-size: 48px; background-color: #1a1a1a; color: lime;',
+    'font-size: 48px; background-color: #1a1a1a; color: mediumspringgreen;',
+    'font-size: 48px; background-color: #1a1a1a; color: cyan;',
+    'font-size: 48px; background-color: #1a1a1a; color: deepskyblue;',
+    'font-size: 48px; background-color: #1a1a1a; color: violet;',
+    'font-size: 48px; background-color: #1a1a1a'
+);
+
+console.log(
+    '%c　GitHub　%c → %chttps://github.com/progedu/forum-ranking',
+    'font-weight: bold; font-size: 20px; background-color: #d4edda; color: #0b2e13; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";',
+    'font-size: 24px; color: #FF0000;',
+    'font-weight: normal; font-size: 20px; color: #0000FF;'
+);
