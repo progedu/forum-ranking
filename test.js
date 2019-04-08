@@ -8,6 +8,7 @@ const noAnswerQuestions = [];
 console.log('today is ' + moment().tz("Asia/Tokyo").format('YYYY-MM-DD HH:mm'));
 const thisYear = moment().tz("Asia/Tokyo").format('YYYY');
 const thisMonth = moment().tz("Asia/Tokyo").format('MM');
+const uneiUserId = 57082582;
 let writeToMonthFileFlag = true;
 
 function fetchForumAPI(offset, limit) {
@@ -60,7 +61,7 @@ function fetchForumAPI(offset, limit) {
                         const answerUserId = answer.user.id;
                         const answerUserName = answer.user.name;
                         const answerUserIcon = answer.user.icon;
-                        if (questionUserId === answerUserId) {
+                        if (questionUserId === answerUserId || answerUserId == uneiUserId) {
                             continue;
                         }
 
