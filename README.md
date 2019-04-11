@@ -26,4 +26,5 @@
 
 ### アクセス解析
 
+- [プライバシー・ポリシー](privacy.html)
 - Google Analytics
