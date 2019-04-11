@@ -27,5 +27,5 @@
 
 ### アクセス解析
 
-- [プライバシー・ポリシー](https://progedu.github.io/forum-ranking/privacy.html)
-- Google Analytics
+- [Google Analytics](https://www.google.com/analytics/web/?hl=ja)
+  - [プライバシー・ポリシー](https://progedu.github.io/forum-ranking/privacy.html)
