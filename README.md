@@ -1,6 +1,7 @@
 ## N予備校 フォーラム名誉会員
 
 - [https://progedu.github.io/forum-ranking/](https://progedu.github.io/forum-ranking/)
+  - [プライバシー・ポリシー](https://progedu.github.io/forum-ranking/privacy.html)
 - 毎朝4時に集計しています。
 - プルリクエスト受け付けています。
 
@@ -26,5 +27,5 @@
 
 ### アクセス解析
 
-- [プライバシー・ポリシー](privacy.html)
+- [プライバシー・ポリシー](https://progedu.github.io/forum-ranking/privacy.html)
 - Google Analytics
