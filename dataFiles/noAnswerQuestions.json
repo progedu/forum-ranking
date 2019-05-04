@@ -1,16 +1,31 @@
 [
    {
-      "id": 10445,
-      "title": "【2019年度】プログラミング入門 Webアプリのコースで、\n第3章 サーバーサイドプログラミング入門の\n「16.Heroku で Web サービスを公開」の練習問題をやろうとしています。\n\nテキスト",
+      "id": 10454,
+      "title": "# -*- coding: utf-8 -*-\nimport keras\nfrom keras.datasets import mnist\nimport matplotlib \nfrom matplo",
       "tags": [
          "プログラミング",
-         "Webアプリ",
          "悩み"
       ]
    },
    {
-      "id": 10443,
-      "title": "# -*- coding: utf-8 -*-\nimport keras\nfrom keras.datasets import mnist\nimport matplotlib \nfrom matplo",
+      "id": 10453,
+      "title": ">VSCodeの上部に出てきたバーに JSON と入力し、 基本設定:設定 (JSON) を開く を選択します。\nもし 基本設定:設定 (JSON) を開く が表示されない場合、上記画面のようにバーの",
+      "tags": [
+         "機能",
+         "HTML・CSS"
+      ]
+   },
+   {
+      "id": 10452,
+      "title": "今年度の授業で、世界史の文化史はやりますか？",
+      "tags": [
+         "大学受験",
+         "世界史"
+      ]
+   },
+   {
+      "id": 10446,
+      "title": "プログラミングについての相談です。\n\nプログラミング入門コースを第３章の投稿機能の実装まで進めていたのですがやめてしまって、また再開しようと考えています。\n\nやめてしまった理由が\n\n練習問題を全然解け",
       "tags": [
          "プログラミング",
          "悩み"
