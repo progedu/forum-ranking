@@ -8,6 +8,7 @@ const noAnswerQuestions = [];
 console.log('today is ' + moment().tz("Asia/Tokyo").format('YYYY-MM-DD HH:mm'));
 const thisYear = moment().tz("Asia/Tokyo").format('YYYY');
 const thisMonth = moment().tz("Asia/Tokyo").format('MM');
+const thisDay = moment().tz("Asia/Tokyo").format('DD');
 const uneiUserId = 57082582;
 let writeToMonthFileFlag = true;
 
@@ -161,4 +162,8 @@ function fetchConroler(offset) {
     });
 }
 
-fetchConroler(0);
+if (thisDay == '01' || thisDay == '31') {
+    console.log(thisDay);
+}
+
+//fetchConroler(0);
