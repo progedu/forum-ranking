@@ -12,6 +12,7 @@
   "author": "折原ダビデ竜",
   "license": "ISC",
   "dependencies": {
+    "fs-extra": "^8.0.1",
     "moment-timezone": "^0.5.23",
     "puppeteer": "^1.13.0",
     "puppeteer-core": "^1.13.0"

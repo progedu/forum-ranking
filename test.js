@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const moment = require('moment-timezone');
-const fs = require('fs');
+const fs = require('fs-extra');
 
 const LIMIT_MAX = 50;
 const answerUsersMap = new Map();
@@ -9,7 +9,8 @@ console.log('today is ' + moment().tz("Asia/Tokyo").format('YYYY-MM-DD HH:mm'));
 const thisYear = moment().tz("Asia/Tokyo").format('YYYY');
 const thisMonth = moment().tz("Asia/Tokyo").format('MM');
 const thisDay = moment().tz("Asia/Tokyo").format('DD');
-const uneiUserId = 57082582;
+const resultMonth = moment().subtract(1, 'month').tz("Asia/Tokyo").format('MM');
+const resultYear = resultMonth == 12 ? thisYear - 1 : thisYear;
 let writeToMonthFileFlag = true;
 
 function fetchForumAPI(offset, limit) {
@@ -162,8 +163,80 @@ function fetchConroler(offset) {
     });
 }
 
-if (thisDay == '01' || thisDay == '31') {
-    console.log(thisDay);
+function takeResults() {
+    prepareDirsSync();
+    fs.copySync('dataFiles/monthlyAnswers_new_30.json', `results/${resultYear}/${resultMonth}/monthlyAnswers_${resultYear}${resultMonth}.json`);
+    resultTextSync();
+    return takeScreenshot();
 }
 
-//fetchConroler(0);
+function prepareDirsSync() {
+    if (fs.existsSync(`results/${resultYear}/${resultMonth}`) === false) {
+        fs.ensureDirSync(`results/${resultYear}/${resultMonth}`)
+    }
+}
+
+function resultTextSync() {
+    const users = fs.readJsonSync(`results/${resultYear}/${resultMonth}/monthlyAnswers_${resultYear}${resultMonth}.json`);
+
+    const outPutText = [
+        `みなさんこんにちは！`,
+        ``,
+        `フォーラム名誉会員 ${Number(resultMonth)}月 の順位発表です。`,
+        ``,
+        `１位 ${users[0].userName} さん！`,
+        `貢献フォーラム数 ${users[0].answeredQuestionMany}個 の大活躍でした。`,
+        ``,
+        `２位 ${users[1].userName} さん！ 貢献フォーラム数 ${users[1].answeredQuestionMany}個！`,
+        `３位 ${users[2].userName} さん！ 貢献フォーラム数 ${users[2].answeredQuestionMany}個！`,
+        `となっております。`,
+        ``,
+        `以下 30位 までの順位は画像のようになっております。`,
+        ``,
+        ``,
+        `今後とも N予備校 とフォーラムをよろしくお願い致します。`,
+        `https://progedu.github.io/forum-ranking/`
+    ].join('\n');
+
+    fs.writeFileSync(`results/${resultYear}/${resultMonth}/postText_${resultYear}${resultMonth}.txt`, outPutText);
+}
+
+function takeScreenshot() {
+    return new Promise(function(resolve, reject) {
+        (async() => {
+            const browser = await puppeteer.launch({
+                args: ['--no-sandbox', '--disable-setuid-sandbox'],
+                "defaultViewport": { "width": 1500, "height": 2600 }
+            });
+            try {
+                const page = await browser.newPage();
+                const response = await page.goto(`https://progedu.github.io/forum-ranking/`, { "waitUntil": "networkidle0" });
+                const element = await page.$('#monthly-ranking');
+                const boundingBox = await element.boundingBox()
+                await page.screenshot({
+                    path: `results/${resultYear}/${resultMonth}/result-${resultYear}${resultMonth}.png`,
+                    clip: {
+                        x: Math.floor(boundingBox.x.toFixed(0)) - 4,
+                        y: Math.floor(boundingBox.y.toFixed(0)) - 4,
+                        width: Math.floor(boundingBox.width.toFixed(0)) + 8,
+                        height: Math.floor(boundingBox.height.toFixed(0)) + 8,
+                    }
+                });
+
+                await browser.close();
+                return resolve('sucsess and contiune');
+            } catch (e) {
+                await browser.close();
+                return reject(e);
+            }
+        })();
+    });
+}
+
+if (thisDay == '01') {
+    takeResults().then(() => {
+        fetchConroler(0);
+    });
+} else {
+    fetchConroler(0);
+}
