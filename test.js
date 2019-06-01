@@ -234,6 +234,35 @@ function takeScreenshot() {
     });
 }
 
+function postForum() {
+    return new Promise(function(resolve, reject) {
+        (async() => {
+            const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+            try {
+                const page = await browser.newPage();
+                const response = await page.goto(`https://account.nicovideo.jp/login`, { "waitUntil": "networkidle0" });
+                const element = await page.$('#monthly-ranking');
+                const boundingBox = await element.boundingBox()
+                await page.screenshot({
+                    path: `results/${resultYear}/${resultMonth}/result-${resultYear}${resultMonth}.png`,
+                    clip: {
+                        x: Math.floor(boundingBox.x.toFixed(0)) - 4,
+                        y: Math.floor(boundingBox.y.toFixed(0)) - 4,
+                        width: Math.floor(boundingBox.width.toFixed(0)) + 8,
+                        height: Math.floor(boundingBox.height.toFixed(0)) + 8,
+                    }
+                });
+
+                await browser.close();
+                return resolve('sucsess and contiune');
+            } catch (e) {
+                await browser.close();
+                return reject(e);
+            }
+        })();
+    });
+}
+
 if (thisDay == '01') {
     takeResults().then(() => {
         fetchConroler(0);
