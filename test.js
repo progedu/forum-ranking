@@ -10,7 +10,9 @@ console.log('today is ' + moment().tz("Asia/Tokyo").format('YYYY-MM-DD HH:mm'));
 const thisYear = moment().tz("Asia/Tokyo").format('YYYY');
 const thisMonth = moment().tz("Asia/Tokyo").format('MM');
 const thisDay = moment().tz("Asia/Tokyo").format('DD');
-const resultMonth = moment().subtract(1, 'month').tz("Asia/Tokyo").format('MM');
+const resultMonth = moment().tz("Asia/Tokyo").subtract(1, 'month').format('MM');
+console.log(`resultMonth = ${resultMonth}`);
+
 const resultYear = resultMonth == 12 ? thisYear - 1 : thisYear;
 let writeToMonthFileFlag = true;
 
