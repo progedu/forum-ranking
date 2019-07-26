@@ -148,6 +148,8 @@ $('#unaswered-tab').on('click', function(e) {
     $('div.col-md').eq(0).before($('#questions-div'));
 });
 
+setTimeout("location.reload()", 24 * 60 * 60 * 1000); // 24時間後にリロード
+
 console.log(
     ' %cＮ%c予備校 %c %cフ%cォ%cー%cラ%cム%c名%c誉%c会%c員%c ',
     'font-weight: bold; font-size: 48px; color: #22AAFF;',
