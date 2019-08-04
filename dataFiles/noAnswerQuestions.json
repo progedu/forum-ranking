@@ -1,8 +1,9 @@
 [
    {
-      "id": 11930,
-      "title": "「戦略オブジェクト」とはなんですか？ググったのですが出てきませんでした。\n\n以下引用＞＞＞\n\npassport.use(new GitHubStrategy({\n  clientID: GITHUB_",
+      "id": 11940,
+      "title": "プログラミングの2章のGitとGitHubの連携についての質問です。\n授業の最後にassessmentリポジトリにGitHub上で変更を加え、その変更をマシンのローカルリポジトリで取得するのですが、R",
       "tags": [
+         "不具合",
          "プログラミング"
       ]
    },
