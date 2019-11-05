@@ -39,7 +39,7 @@ function fetchForumAPI(offset, limit) {
                     const questionId = contest.id;
                     const title = contest.title;
                     const tags = contest.tags;
-                    const questionUserId = contest.user.id;
+                    const questionUserId = contest.user.zane_user_id;
                     const questionUserName = contest.user.name;
                     const isResolved = contest.is_resolved;
                     const answersCount = contest.answers_count;
@@ -63,7 +63,7 @@ function fetchForumAPI(offset, limit) {
                     const answersManyMap = new Map();
 
                     for (let answer of contest.answers) {
-                        const answerUserId = answer.user.id;
+                        const answerUserId = answer.user.zane_user_id;
                         const answerUserName = answer.user.name;
                         const answerUserIcon = answer.user.icon;
                         if (questionUserId === answerUserId || answerUserId == uneiUserId) {
