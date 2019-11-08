@@ -3,7 +3,7 @@ const moment = require('moment-timezone');
 const fs = require('fs-extra');
 
 const LIMIT_MAX = 50;
-const uneiUserId = 57082582;
+const uneiUserId = 23189;
 const answerUsersMap = new Map();
 const noAnswerQuestions = [];
 console.log('today is ' + moment().tz("Asia/Tokyo").format('YYYY-MM-DD HH:mm'));
