@@ -16,8 +16,8 @@
    {
       "userId": 32130,
       "userName": "あさづけ",
-      "total": 825,
-      "answeredQuestionMany": 526,
+      "total": 827,
+      "answeredQuestionMany": 527,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/239/2398821.jpg?1561102280"
    },
    {
@@ -140,6 +140,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/b348d91367b9c2c0eca48f1e108de27a/DvgQ/zane/5d55c22e471a365bb865bf3971e1282d/df5579d7.jpg"
    },
    {
+      "userId": 6591,
+      "userName": "coaxial",
+      "total": 164,
+      "answeredQuestionMany": 93,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
+   },
+   {
       "userId": 18262,
       "userName": "たき",
       "total": 122,
@@ -159,13 +166,6 @@
       "total": 132,
       "answeredQuestionMany": 92,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c0b90158e053fb6b5a5cfc861b2a6024/ogtv/zane/7a8303b7cd6dbb4f23050d1cb2dc07bc/3782ffae.png"
-   },
-   {
-      "userId": 6591,
-      "userName": "coaxial",
-      "total": 162,
-      "answeredQuestionMany": 91,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
    },
    {
       "userId": 33,
@@ -329,6 +329,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
    },
    {
+      "userId": 7073,
+      "userName": "小島芳樹（Webデザイン講師）",
+      "total": 78,
+      "answeredQuestionMany": 53,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/3e01a03fba9cc176d44b815943e8a4c2/LcWu/zane/1fc06a4d61f8de48289840b933b09cc8/259bdcbd.png"
+   },
+   {
       "userId": 5868,
       "userName": "Javier Reyes",
       "total": 70,
@@ -341,12 +348,5 @@
       "total": 69,
       "answeredQuestionMany": 52,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/1299/12990903.jpg?1256902277"
-   },
-   {
-      "userId": 7073,
-      "userName": "小島芳樹（Webデザイン講師）",
-      "total": 75,
-      "answeredQuestionMany": 51,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/3e01a03fba9cc176d44b815943e8a4c2/LcWu/zane/1fc06a4d61f8de48289840b933b09cc8/259bdcbd.png"
    }
 ]
