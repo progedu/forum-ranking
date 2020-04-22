@@ -1,18 +1,63 @@
 [
    {
-      "id": 15965,
-      "title": "今通学コース(週1)で、ネット特進のアドバンスドコースを進めているのですがそれに合わせてベーシックコースも進める必要があるのでしょうか？",
+      "id": 16001,
+      "title": "サーバーサイドプログラミング入門の3章20講「削除機能の実装」でポートエラーが出てしまいました。エラー原因がわからないので、ご存じでしたらご教示頂けると幸いです。\n\n\nvagrant@ubuntu-b",
       "tags": [
-         "機能",
-         "講師",
-         "N高等学校",
-         "雑談",
-         "その他"
+         "プログラミング",
+         "Webデザイン"
       ]
    },
    {
-      "id": 15964,
-      "title": "バイアスユニットが具体的にわからないので教えて欲しいです！",
+      "id": 16000,
+      "title": "yarn install する時に毎回\n\nwarning pug > pug-filters > constantinople > babel-types > babel-runtime > core",
+      "tags": [
+         "プログラミング"
+      ]
+   },
+   {
+      "id": 15994,
+      "title": "Git と GitHub の連携で　sudo apt updategit　を実行すると下記のエラーが出ます。\n\nvagrant@ubuntu-bionic:~$ sudo apt updategit\n",
+      "tags": [
+         "プログラミング"
+      ]
+   },
+   {
+      "id": 15993,
+      "title": "このようにワークスペース上にはファイルができているのですが、VS codeで(というかmac上)にファイルが見つかりません。\n原因がわからず困っています。",
+      "tags": [
+         "不具合",
+         "プログラミング",
+         "Webアプリ",
+         "悩み"
+      ]
+   },
+   {
+      "id": 15985,
+      "title": "問題自体ではないのですが…矢印の式変形がわかりません。",
+      "tags": [
+         "大学受験",
+         "数学Ⅰ・Ａ",
+         "数学Ⅱ・Ｂ"
+      ]
+   },
+   {
+      "id": 15983,
+      "title": "私は、センターで化学を受験するか迷っています。（_ _)\n\n1番難しいと思う化学の範囲を教えてください。",
+      "tags": [
+         "大学受験",
+         "化学"
+      ]
+   },
+   {
+      "id": 15967,
+      "title": "添付画像の「rl.on('line', (lineString) => {~~}」部分の「line」イベントは「rl」オブジェクトで1行読み込まれたら、「lineString」にその行が代入されると認",
+      "tags": [
+         "プログラミング"
+      ]
+   },
+   {
+      "id": 15966,
+      "title": "sudo apt update　を実行すると　sudo:unable to execute /usr/bin/apt:  Inpiut/output error   がでます。",
       "tags": [
          "プログラミング"
       ]
@@ -25,26 +70,10 @@
       ]
    },
    {
-      "id": 15962,
-      "title": "以下の写真のように、教材をすすめており、共有フォルダを作る際に\ncd ~/vagrant/ubuntu64_18\nと打つとそのようなファイルは存在しないと表mkdir workspace\nと打つと既に",
-      "tags": [
-         "プログラミング",
-         "悩み"
-      ]
-   },
-   {
       "id": 15961,
       "title": "サンプルファイウルダウンロードできない",
       "tags": [
          "Webデザイン"
-      ]
-   },
-   {
-      "id": 15960,
-      "title": "プログラミング入門の第1章のJavaScriptのコレクションの練習問題「あ行とか行の文字を使った２文字で名前を考えようとしているため、すべての名前をHTMLに書き出すプログラムを作ってみましょう」に",
-      "tags": [
-         "プログラミング",
-         "Webアプリ"
       ]
    },
    {
@@ -109,13 +138,6 @@
    {
       "id": 15916,
       "title": "練習問題の所で、修正された時間表示の実装をすると、サーバーを起動する際、\n\n\"Moment Timezone 0.5.28 was already loaded with data from 2019",
-      "tags": [
-         "プログラミング"
-      ]
-   },
-   {
-      "id": 15907,
-      "title": "yarn install する時に毎回\n\nwarning pug > pug-filters > constantinople > babel-types > babel-runtime > core",
       "tags": [
          "プログラミング"
       ]
@@ -198,13 +220,6 @@
       "tags": [
          "クリエイティブ",
          "イラスト"
-      ]
-   },
-   {
-      "id": 15819,
-      "title": "kotlinで書いてみてます。\nsendTextは機能しているのですが、画像をシェアするsendBinary、sendMultipleがうまくいきません。\n\n    fun sendText(view",
-      "tags": [
-         "プログラミング"
       ]
    },
    {
