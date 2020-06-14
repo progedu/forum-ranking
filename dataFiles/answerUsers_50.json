@@ -42,18 +42,18 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/464e000757b7125aedd08cd6d2a0da74/hEeR/zane/125c0ab9d80d3c8466a89777a1d80893/95a6bb24.png"
    },
    {
+      "userId": 90332,
+      "userName": "ゲスト",
+      "total": 261,
+      "answeredQuestionMany": 194,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
+   },
+   {
       "userId": 23190,
       "userName": "中久喜 匠太郎",
       "total": 286,
       "answeredQuestionMany": 193,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/8315618b1942aa102f3c09224c8048d2/LGWt/zane/77f949e9880df78d1697cf82e399a64c/164bc3ac.png"
-   },
-   {
-      "userId": 90332,
-      "userName": "ゲスト",
-      "total": 250,
-      "answeredQuestionMany": 186,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
       "userId": 10946,
@@ -91,18 +91,18 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/e2678ff19b04cd02c1df534999a4f013/6jSG/zane/15fae56e06e6fd8e7f24f4d84dd2baa6/79c4df6f.jpg"
    },
    {
+      "userId": 30202,
+      "userName": "比古清十郎",
+      "total": 440,
+      "answeredQuestionMany": 150,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/bc1d8922769bcf35a5049db0ecb1e0d2/FNys/zane/9342bdf75eaee89543cec27618478fe7/bfe480d0.jpg"
+   },
+   {
       "userId": 16271,
       "userName": "deran",
       "total": 231,
       "answeredQuestionMany": 150,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/572/5726644.jpg?1273029226"
-   },
-   {
-      "userId": 30202,
-      "userName": "比古清十郎",
-      "total": 436,
-      "answeredQuestionMany": 149,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/bc1d8922769bcf35a5049db0ecb1e0d2/FNys/zane/9342bdf75eaee89543cec27618478fe7/bfe480d0.jpg"
    },
    {
       "userId": 20565,
@@ -121,8 +121,8 @@
    {
       "userId": 45054,
       "userName": "返事がない。ただの予備校のようだ",
-      "total": 154,
-      "answeredQuestionMany": 137,
+      "total": 159,
+      "answeredQuestionMany": 142,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/8eb1f7c0385fb939e1001bacc0f074eb/6kLz/zane/63f0040bbc78b1127376309ebb0355a7/716c6c09.jpg"
    },
    {
@@ -161,6 +161,20 @@
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/1299/12990903.jpg?1256902277"
    },
    {
+      "userId": 11996,
+      "userName": "はちべえ",
+      "total": 157,
+      "answeredQuestionMany": 112,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/ab27d728ae42123fdad55308a060efb0/GFRW/zane/608765729bafe1ca37f1a340a612d356/0699f70f.png"
+   },
+   {
+      "userId": 159941,
+      "userName": "アイス",
+      "total": 208,
+      "answeredQuestionMany": 110,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/a079a3be372e455b8b9e2622f63982b8/2gJU/zane/626b007ed8ed9ce3641e3e1bd842f0a1/216eac5e.jpg"
+   },
+   {
       "userId": 23188,
       "userName": "佐藤敏弘",
       "total": 132,
@@ -168,25 +182,11 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/b348d91367b9c2c0eca48f1e108de27a/DvgQ/zane/5d55c22e471a365bb865bf3971e1282d/df5579d7.jpg"
    },
    {
-      "userId": 159941,
-      "userName": "アイス",
-      "total": 207,
-      "answeredQuestionMany": 109,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/a079a3be372e455b8b9e2622f63982b8/2gJU/zane/626b007ed8ed9ce3641e3e1bd842f0a1/216eac5e.jpg"
-   },
-   {
       "userId": 89473,
       "userName": "PiroQ",
       "total": 159,
       "answeredQuestionMany": 108,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
-   },
-   {
-      "userId": 11996,
-      "userName": "はちべえ",
-      "total": 151,
-      "answeredQuestionMany": 108,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/ab27d728ae42123fdad55308a060efb0/GFRW/zane/608765729bafe1ca37f1a340a612d356/0699f70f.png"
    },
    {
       "userId": 23210,
@@ -205,7 +205,7 @@
    {
       "userId": 44706,
       "userName": "LIGHTNING",
-      "total": 202,
+      "total": 204,
       "answeredQuestionMany": 101,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
    },
