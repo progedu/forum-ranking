@@ -1,1 +1,51 @@
-[]
+[
+   {
+      "userId": 23190,
+      "userName": "中久喜 匠太郎",
+      "total": 4,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/8315618b1942aa102f3c09224c8048d2/LGWt/zane/77f949e9880df78d1697cf82e399a64c/164bc3ac.png"
+   },
+   {
+      "userId": 53668,
+      "userName": "早月",
+      "total": 4,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/29f147f534406f0f91c98b2d30541bf1/ecGw/zane/935bd37da4867716191fb9b0aef46659/77f51e66.png"
+   },
+   {
+      "userId": 16584,
+      "userName": "labeneko",
+      "total": 2,
+      "answeredQuestionMany": 1,
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/1274/12744294.jpg?1365682270"
+   },
+   {
+      "userId": 161075,
+      "userName": "ななざばなな",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/57894ee04a38c0adecba5c645c1b9f33/s7j5/zane/792ce435f3240b7beeee22f891be52db/7f22d904.png"
+   },
+   {
+      "userId": 154395,
+      "userName": "rin",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
+   },
+   {
+      "userId": 151184,
+      "userName": "ゲスト",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
+   },
+   {
+      "userId": 61558,
+      "userName": "SS",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/aab8840b781de43f3e48ea6e3bbe5edd/GL1e/zane/8c52ecc19a8ea7577b4f9947fcbced22/925d5cb2.png"
+   }
+]
