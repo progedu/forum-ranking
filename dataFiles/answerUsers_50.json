@@ -30,15 +30,15 @@
    {
       "userId": 90332,
       "userName": "ゲスト",
-      "total": 514,
-      "answeredQuestionMany": 393,
+      "total": 516,
+      "answeredQuestionMany": 395,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
       "userId": 159941,
       "userName": "アイス",
-      "total": 517,
-      "answeredQuestionMany": 284,
+      "total": 519,
+      "answeredQuestionMany": 285,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/a079a3be372e455b8b9e2622f63982b8/2gJU/zane/626b007ed8ed9ce3641e3e1bd842f0a1/216eac5e.jpg"
    },
    {
@@ -336,17 +336,17 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
+      "userId": 29703,
+      "userName": "うまい棒めんたい",
+      "total": 122,
+      "answeredQuestionMany": 76,
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/65/652986.jpg?1503095948"
+   },
+   {
       "userId": 75070,
       "userName": "さえ",
       "total": 92,
       "answeredQuestionMany": 76,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/8723/87230692.jpg?1572596837"
-   },
-   {
-      "userId": 29703,
-      "userName": "うまい棒めんたい",
-      "total": 121,
-      "answeredQuestionMany": 75,
-      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/65/652986.jpg?1503095948"
    }
 ]
