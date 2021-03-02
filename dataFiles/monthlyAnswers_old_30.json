@@ -1,1 +1,23 @@
-[]
+[
+   {
+      "userId": 84674,
+      "userName": "テスト",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
+   },
+   {
+      "userId": 9740,
+      "userName": "かたつむり",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/bede80a5a10fdbd7c08118654119009f/gamb/zane/7c05fab00f42213077e09bcbb831ff1c/e945cb1d.jpg"
+   },
+   {
+      "userId": 18791,
+      "userName": "すライム",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/1299/12990903.jpg?1256902277"
+   }
+]
