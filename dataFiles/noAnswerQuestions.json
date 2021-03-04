@@ -1,27 +1,16 @@
 [
    {
-      "id": 21847,
-      "title": "Pass me the salt, if you please.\nのif youの文法的な説明をしていただきたいです。よろしくお願いします。",
+      "id": 21855,
+      "title": "世界史でマニ教について詳しく話しているのは何講かわかる人いますか？",
       "tags": [
-         "大学受験",
-         "英文法",
-         "英作文"
+         "世界史"
       ]
    },
    {
-      "id": 21846,
-      "title": "herokuをインストールしようとするとエラーになります。\n\nsudo snap install --classic heroku　　※ubuntuのコマンドライン\n↓\nerror: cannot c",
+      "id": 21854,
+      "title": "練習問題の回答に関してですが、\nif (req.user === post.postedBy || req.user === 'admin')\nではなく\nif (oneTimeTokenMap.get",
       "tags": [
-         "Webアプリ"
-      ]
-   },
-   {
-      "id": 21845,
-      "title": "こんにちは！\nプログラミング入門コース3章の匿名掲示板のコードを元にして、自分でwebアプリを作ってみているのですが、詰まってしまっているところがあります。\n\njsを画像1枚目のように書いてpugにデ",
-      "tags": [
-         "プログラミング",
-         "HTML・CSS",
-         "Webアプリ"
+         "プログラミング"
       ]
    },
    {
