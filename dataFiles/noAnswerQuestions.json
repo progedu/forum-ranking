@@ -1,22 +1,14 @@
 [
    {
-      "id": 21873,
-      "title": "Bad driving (  ) many accidents.\n\nこの文章の正答はcausesですが、なぜcauseではいけないのでしょうか。\n\ncausesは三単現だと思うのですが、もしそうと仮定",
+      "id": 21875,
+      "title": "2章02をやっていたのですが、このようにvagrant upできません。以前インストールしたものがそのままなのがいけないのでしょうか？\nchoco や cinst virtualbox -Versio",
       "tags": [
-         "語学",
-         "大学受験",
-         "英文読解",
-         "英文法",
-         "英作文",
-         "中学復習"
-      ]
-   },
-   {
-      "id": 21871,
-      "title": "文章比較ツールを作りたいのですがうまくいきません。\n\ntextareaの左側に行数を表示したくてライブラリーを使いました。\n\nhttps://github.com/cotenoni/jquery-li",
-      "tags": [
+         "機能",
+         "不具合",
          "プログラミング",
-         "悩み"
+         "宿題",
+         "悩み",
+         "その他"
       ]
    },
    {
@@ -28,27 +20,12 @@
       ]
    },
    {
-      "id": 21865,
-      "title": "古典文法についてです。\nこの「させ」は使役の意味になっているのですが、なぜ使役になるのか分かりません。\n教えていただけるとありがたいです。",
-      "tags": [
-         "大学受験",
-         "古文"
-      ]
-   },
-   {
       "id": 21859,
       "title": "Unhandled rejection SequelizeConnectionError: no pg_hba.conf entry for host \"\", user \"\", database \"\"",
       "tags": [
          "不具合",
          "要望",
          "プログラミング"
-      ]
-   },
-   {
-      "id": 21855,
-      "title": "世界史でマニ教について詳しく話しているのは何講かわかる人いますか？",
-      "tags": [
-         "世界史"
       ]
    },
    {
