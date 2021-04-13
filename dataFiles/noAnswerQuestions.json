@@ -41,6 +41,22 @@
       ]
    },
    {
+      "id": 22215,
+      "title": "#include<stdio.h>\n \n int main(void){\n int i, s, sign[10];\n int n, x;\n \n for(i=1;i<=9;i++){\n sign[i]=",
+      "tags": [
+         "プログラミング",
+         "宿題"
+      ]
+   },
+   {
+      "id": 22214,
+      "title": "Unityをある程度出来る方に質問です。\nUnityの使い方やコードの使い方はどうやって学びましたか？\n(本やN予備校等を使っての独学、プログラミング教室で教えてもらった、N高で教えてもらった等)\nN",
+      "tags": [
+         "プログラミング",
+         "ゲームプログラミング"
+      ]
+   },
+   {
       "id": 22190,
       "title": "pythonでwikipediaで単語Aから単語Bへの最短経路を探索するプログラムを作っています。\n\n要約すると\n    WikiSearch ユーザが操作するクラス\n    _WikiSearch ",
       "tags": [
