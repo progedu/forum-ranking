@@ -329,6 +329,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/3bcae8425a22ed5754dbdc8005789676/2z7l/zane/d4278359fa653df4fd983aea6df1e752/0d909d59.png"
    },
    {
+      "userId": 29893,
+      "userName": "tatuya",
+      "total": 136,
+      "answeredQuestionMany": 88,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
+   },
+   {
       "userId": 17779,
       "userName": "みみずん",
       "total": 158,
@@ -341,12 +348,5 @@
       "total": 136,
       "answeredQuestionMany": 87,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
-   },
-   {
-      "userId": 29893,
-      "userName": "tatuya",
-      "total": 134,
-      "answeredQuestionMany": 87,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    }
 ]
