@@ -9,8 +9,8 @@
    {
       "userId": 32130,
       "userName": "あさづけ",
-      "total": 1470,
-      "answeredQuestionMany": 933,
+      "total": 1471,
+      "answeredQuestionMany": 934,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/239/2398821.jpg?1561102280"
    },
    {
@@ -30,8 +30,8 @@
    {
       "userId": 90332,
       "userName": "ゲスト",
-      "total": 903,
-      "answeredQuestionMany": 712,
+      "total": 905,
+      "answeredQuestionMany": 714,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
@@ -93,15 +93,15 @@
    {
       "userId": 18791,
       "userName": "すライム",
-      "total": 309,
-      "answeredQuestionMany": 209,
+      "total": 311,
+      "answeredQuestionMany": 210,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/1299/12990903.jpg?1256902277"
    },
    {
       "userId": 7012,
       "userName": "節田佑介",
-      "total": 235,
-      "answeredQuestionMany": 199,
+      "total": 236,
+      "answeredQuestionMany": 200,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/900cda06a8adf472501cadc43120aa10/rZOH/zane/3a813564c0e31a6974691a292038a7de/5162f720.jpg"
    },
    {
@@ -135,7 +135,7 @@
    {
       "userId": 84534,
       "userName": "(*ˊᵕˋ*)",
-      "total": 432,
+      "total": 433,
       "answeredQuestionMany": 181,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/6e8af001a08ea01b36828d585f6bb670/dyRV/zane/14dc395e8dc602ac7fb87c84be37eaf3/4d1ba672.png"
    },
@@ -329,6 +329,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c0b90158e053fb6b5a5cfc861b2a6024/ogtv/zane/7a8303b7cd6dbb4f23050d1cb2dc07bc/3782ffae.png"
    },
    {
+      "userId": 90130,
+      "userName": "kenton116",
+      "total": 141,
+      "answeredQuestionMany": 89,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/dec9f97adefc9403f48f7857cbc8870b/nRzD/zane/d4d973692cadecc7e8ef3efd3bc1fc23/6d263258.png"
+   },
+   {
       "userId": 46285,
       "userName": "LG21",
       "total": 127,
@@ -341,12 +348,5 @@
       "total": 158,
       "answeredQuestionMany": 87,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/fbfe8aa4d02efad81e6afd66b69a44bd/WH6f/zane/62d0a35b43050a4461fb0277c85cc3c3/8d045218.png"
-   },
-   {
-      "userId": 33,
-      "userName": "hojinashi",
-      "total": 136,
-      "answeredQuestionMany": 87,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
    }
 ]
