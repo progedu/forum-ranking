@@ -1,17 +1,17 @@
 [
    {
+      "userId": 32130,
+      "userName": "あさづけ",
+      "total": 1495,
+      "answeredQuestionMany": 946,
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/239/2398821.jpg?1561102280"
+   },
+   {
       "userId": 16,
       "userName": "吉村総一郎先生",
       "total": 1394,
       "answeredQuestionMany": 945,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/dbbb5c208009465daeb984083db868f1/n5vE/zane/4bb10cc5042bb4b281e593b270ed3d0e/ef336547.png"
-   },
-   {
-      "userId": 32130,
-      "userName": "あさづけ",
-      "total": 1487,
-      "answeredQuestionMany": 943,
-      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/239/2398821.jpg?1561102280"
    },
    {
       "userId": 36,
@@ -749,6 +749,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c095cafd62bcda3103915a270205e0ba/Rkwu/zane/754390ee3ffc19bc5d96b1cf55453a22/d7d7c99d.jpg"
    },
    {
+      "userId": 163875,
+      "userName": "地球生命体",
+      "total": 67,
+      "answeredQuestionMany": 37,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/afa4bfc8084397eabc239dfe789c7ce4/1dJg/zane/4049775d3f84227435b634d9fda1e5bd/40013faf.jpg"
+   },
+   {
       "userId": 30221,
       "userName": "ベンジュンソン",
       "total": 62,
@@ -761,13 +768,6 @@
       "total": 39,
       "answeredQuestionMany": 37,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/2de3be83634120b83beb6acd0ad2fabc/skt1/zane/9d30b9b1891e1bb075049e7501b70609/c9b00cc3.jpg"
-   },
-   {
-      "userId": 163875,
-      "userName": "地球生命体",
-      "total": 65,
-      "answeredQuestionMany": 36,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/afa4bfc8084397eabc239dfe789c7ce4/1dJg/zane/4049775d3f84227435b634d9fda1e5bd/40013faf.jpg"
    },
    {
       "userId": 17816,
@@ -18698,7 +18698,7 @@
    },
    {
       "userId": 193002,
-      "userName": "ポリフェノール",
+      "userName": "ichiichi",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
