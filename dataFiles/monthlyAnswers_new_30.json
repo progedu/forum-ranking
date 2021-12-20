@@ -2,15 +2,15 @@
    {
       "userId": 202894,
       "userName": "ゲスト",
-      "total": 34,
-      "answeredQuestionMany": 25,
+      "total": 35,
+      "answeredQuestionMany": 26,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 163875,
       "userName": "馬鹿すぎて中学生になったお猿",
-      "total": 18,
-      "answeredQuestionMany": 13,
+      "total": 23,
+      "answeredQuestionMany": 17,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/821ff7acd78149e21f453edb2d4325b1/h28G/zane/869902d8c3ddfbe1fc530a3318986900/abeea674.jpg"
    },
    {
@@ -28,13 +28,6 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/a079a3be372e455b8b9e2622f63982b8/2gJU/zane/626b007ed8ed9ce3641e3e1bd842f0a1/216eac5e.jpg"
    },
    {
-      "userId": 90332,
-      "userName": "ゲスト",
-      "total": 7,
-      "answeredQuestionMany": 7,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
-   },
-   {
       "userId": 200095,
       "userName": "moesuke",
       "total": 7,
@@ -49,18 +42,18 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    },
    {
+      "userId": 90332,
+      "userName": "ゲスト",
+      "total": 6,
+      "answeredQuestionMany": 6,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
+   },
+   {
       "userId": 7098,
       "userName": "7X",
       "total": 9,
       "answeredQuestionMany": 5,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c613b3560423f14a9e12a289f19a8fdc/3ycj/zane/60e5b9535639e095cf5aab70640090a3/88f5c479.png"
-   },
-   {
-      "userId": 89849,
-      "userName": "yos10",
-      "total": 14,
-      "answeredQuestionMany": 4,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
    },
    {
       "userId": 211343,
@@ -72,7 +65,7 @@
    {
       "userId": 212054,
       "userName": "ゲスト",
-      "total": 4,
+      "total": 5,
       "answeredQuestionMany": 4,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/4b817cdd4aa45321bcd0cc423dc45702/1gGl/zane/c59f5bc45c219f971c364a53db4738f9/91cdbd37.jpg"
    },
@@ -82,6 +75,13 @@
       "total": 4,
       "answeredQuestionMany": 4,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/239/2398821.jpg?1561102280"
+   },
+   {
+      "userId": 89849,
+      "userName": "yos10",
+      "total": 8,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
    },
    {
       "userId": 29893,
@@ -105,25 +105,18 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/3e01a03fba9cc176d44b815943e8a4c2/LcWu/zane/1fc06a4d61f8de48289840b933b09cc8/259bdcbd.png"
    },
    {
-      "userId": 18791,
-      "userName": "すライム",
-      "total": 4,
-      "answeredQuestionMany": 2,
-      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/1299/12990903.jpg?1256902277"
-   },
-   {
-      "userId": 200094,
-      "userName": "sk_",
-      "total": 4,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
-   },
-   {
       "userId": 205799,
       "userName": "ゲスト",
       "total": 4,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
+   },
+   {
+      "userId": 57024,
+      "userName": "ケータイ",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 210911,
@@ -154,6 +147,20 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7117a2c454a3fec3fa106d0520c6d42e/CcJf/zane/a67a555dcb836d1f9b5079a6e4e714ff/4a791e9e.png"
    },
    {
+      "userId": 200094,
+      "userName": "sk_",
+      "total": 2,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
+      "userId": 219060,
+      "userName": "慎太郎",
+      "total": 2,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/3230cdfcd1cbfc421c276f12a0b718a1/5OlB/zane/8a30f19ba0a9043d51840b9d15b5f754/3c6159fa.jpg"
+   },
+   {
       "userId": 1199,
       "userName": "rocky",
       "total": 2,
@@ -168,18 +175,25 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png"
    },
    {
-      "userId": 81449,
-      "userName": "佑",
-      "total": 1,
+      "userId": 18791,
+      "userName": "すライム",
+      "total": 2,
       "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/365f3d53f6d74bb4985556e33f0cc79e/jre4/zane/b0e1b2eddcd58f2e3e9046e62e982332/183a539e.jpg"
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/1299/12990903.jpg?1256902277"
    },
    {
-      "userId": 215849,
-      "userName": "ラムネ",
+      "userId": 7015,
+      "userName": "森田亮一朗",
       "total": 1,
       "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/1a5105e9897f9a4abc0fd238adc1d484/u2IG/zane/1fb19bb53ebe6c3560e49775ae3df177/ff935585.png"
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/f7bab4edb4c303da3dec47c57037d28b/eNzW/zane/ccda9dd9e33f5b447a414f2b2bab986c/e0dca3d9.jpg"
+   },
+   {
+      "userId": 185019,
+      "userName": "Kohey",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
       "userId": 9976,
@@ -194,19 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/2efaeaec81903f455d6d93609f94b404/hgEu/zane/5c743d958495f2f48df33731099d9a93/5d497748.jpg"
-   },
-   {
-      "userId": 185019,
-      "userName": "Kohey",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
-   },
-   {
-      "userId": 178877,
-      "userName": "ゲスト",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/57982d05a6f6615e92444fdf096ee202/jKlX/zane/38849d3adcacbb0dbb7ea5918d3edf00/5f1a2962.jpg"
    }
 ]
