@@ -1,1 +1,23 @@
-[]
+[
+   {
+      "userId": 206443,
+      "userName": "ryu",
+      "total": 4,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
+   },
+   {
+      "userId": 232353,
+      "userName": "よもぎ",
+      "total": 2,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/dda90e6d8bc7e6d568c6f5c4d8bbba48/MBw5/zane/79ebee82eb6234d04af993dc7ca340aa/3342312b.jpg"
+   },
+   {
+      "userId": 215609,
+      "userName": "N予備厨のピカチュウ",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/efe47b96219a2c0ac49ddbba3a865b20/yMHD/zane/d8f1bfa913a098d1cb2e710fe7256bd1/b4734e00.jpg"
+   }
+]
