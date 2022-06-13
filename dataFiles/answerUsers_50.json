@@ -72,8 +72,8 @@
    {
       "userId": 200095,
       "userName": "moesuke",
-      "total": 450,
-      "answeredQuestionMany": 257,
+      "total": 449,
+      "answeredQuestionMany": 256,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/38736bdc730b40a51943d5b22b02dca9/Y2Uz/zane/ecdc4035c53086607302ff4a59fa80e6/e67db24d.png"
    },
    {
@@ -168,18 +168,18 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/d5f8551fd51ffe3e0c7505e77e82e192/sVLe/zane/c45d5b60ee11895430bdddf7050be827/c4021c68.jpg"
    },
    {
+      "userId": 202894,
+      "userName": "ゲスト",
+      "total": 295,
+      "answeredQuestionMany": 170,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
       "userId": 6591,
       "userName": "coaxial",
       "total": 270,
       "answeredQuestionMany": 169,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
-   },
-   {
-      "userId": 202894,
-      "userName": "ゲスト",
-      "total": 292,
-      "answeredQuestionMany": 168,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 168268,
@@ -219,8 +219,8 @@
    {
       "userId": 53668,
       "userName": "早月",
-      "total": 307,
-      "answeredQuestionMany": 142,
+      "total": 306,
+      "answeredQuestionMany": 141,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/29f147f534406f0f91c98b2d30541bf1/ecGw/zane/935bd37da4867716191fb9b0aef46659/77f51e66.png"
    },
    {
@@ -247,8 +247,8 @@
    {
       "userId": 23188,
       "userName": "佐藤敏弘",
-      "total": 150,
-      "answeredQuestionMany": 126,
+      "total": 151,
+      "answeredQuestionMany": 127,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/b348d91367b9c2c0eca48f1e108de27a/DvgQ/zane/5d55c22e471a365bb865bf3971e1282d/df5579d7.jpg"
    },
    {
@@ -345,8 +345,8 @@
    {
       "userId": 43562,
       "userName": "ゲスト",
-      "total": 176,
-      "answeredQuestionMany": 100,
+      "total": 173,
+      "answeredQuestionMany": 99,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/3441ad69acc36a3df833100d7e6a292f/JXuH/zane/c5b4dad99118eaadf35f80a0d146f224/e75a852c.png"
    }
 ]
