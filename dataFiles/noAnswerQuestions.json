@@ -1,5 +1,19 @@
 [
    {
+      "id": 28497,
+      "title": "「Githubからクローンしてみよう」の段階で、Ubuntuのターミナルに「sudo git clone git@github.com:（自分のユーザー名）/assessment.git」と入力すると",
+      "tags": [
+         "プログラミング"
+      ]
+   },
+   {
+      "id": 28494,
+      "title": "GitHubのSettings→Pagesタブを開くと、「Verified domains」「Add a domain」「There are no verified domains. Verify d",
+      "tags": [
+         "プログラミング"
+      ]
+   },
+   {
       "id": 28490,
       "title": "【2022年度】プログラミング入門 付録TypeScript, React, Next.js 編\n09.【React/Next ⑤】API Routes による Web API の実装\nで、FizzB",
       "tags": [
