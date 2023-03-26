@@ -1,12 +1,5 @@
 [
    {
-      "id": 29203,
-      "title": "()にはguaranteeが入るのですが、assureが不適切な理由を教えていただきたいです。",
-      "tags": [
-         "英文法"
-      ]
-   },
-   {
       "id": 29201,
       "title": "scalatestのインポートがうまくいっていないようなのですがどうすれば解決できるでしょうか\nバージョン\nJDK 19\nSBT version\t1.8.2\nScala version 2.12.7",
       "tags": [
