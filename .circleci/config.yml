@@ -46,6 +46,7 @@ jobs:
             git config --global user.email "circleci@gh-pages.com"
             git add --all
             git commit -m "Circle CI updates files."
+            git pull oriing master
             git push origin master
 
 workflows:
@@ -53,7 +54,7 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "0 19 * * *"
+          cron: "29 4 * * *"
           filters:
             branches:
               only:
