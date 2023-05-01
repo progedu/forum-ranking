@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:18.15.0
+      - image: cimg/node:18.16.0
 
     working_directory: ~/repo
 
@@ -53,7 +53,7 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "24 3 * * *"
+          cron: "26 3 * * *"
           filters:
             branches:
               only:
