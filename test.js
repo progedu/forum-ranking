@@ -156,7 +156,7 @@ function fetchConroler(offset) {
 
         // sucsess
         const nestOffset = offset + LIMIT_MAX;
-        setTimeout(fetchConroler, 3000, nestOffset);
+        setTimeout(fetchConroler, 1000, nestOffset);
 
     }).catch((e) => {
         console.log(e);
