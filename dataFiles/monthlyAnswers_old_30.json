@@ -2,8 +2,8 @@
    {
       "userId": 252211,
       "userName": "252211",
-      "total": 18,
-      "answeredQuestionMany": 17,
+      "total": 24,
+      "answeredQuestionMany": 22,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
@@ -23,9 +23,16 @@
    {
       "userId": 241691,
       "userName": "N塾",
-      "total": 5,
-      "answeredQuestionMany": 5,
+      "total": 10,
+      "answeredQuestionMany": 8,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
+   },
+   {
+      "userId": 259486,
+      "userName": "259486",
+      "total": 5,
+      "answeredQuestionMany": 4,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 259243,
@@ -61,13 +68,6 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/a8938d003da2c90eb4c766772f4c57b2/3bdg/zane/89cc2863b9c758882e632eab14b38a0f/2872a7a7.jpg"
-   },
-   {
-      "userId": 259486,
-      "userName": "259486",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 160048,
@@ -154,6 +154,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/23cb832b2b9c454ada61b385fc88de38/8TlF/zane/e9d3e7f3acd8537f430eea8fb599636d/baff1d96.jpeg"
    },
    {
+      "userId": 238245,
+      "userName": "S高生238245",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
+   },
+   {
       "userId": 210462,
       "userName": "高松 和也",
       "total": 1,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/4090483a7b6c1b108077df84b7986667/Vjwo/zane/aca612151b000dc2208c85d052ca8424/5a2ced1e.jpg"
-   },
-   {
-      "userId": 221951,
-      "userName": "149",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    }
 ]
