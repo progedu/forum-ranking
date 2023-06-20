@@ -16,8 +16,8 @@
    {
       "userId": 36,
       "userName": "折原ダビデ竜 先生",
-      "total": 1518,
-      "answeredQuestionMany": 941,
+      "total": 1520,
+      "answeredQuestionMany": 942,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/d307b3c03b2f91206c9ffa08768b1d9b/oChb/zane/d786f7517f84ca5aa591e3bbafeeaa63/c5c69fb3.png"
    },
    {
@@ -65,7 +65,7 @@
    {
       "userId": 208358,
       "userName": "柊真",
-      "total": 633,
+      "total": 634,
       "answeredQuestionMany": 341,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/8e2b60d26a6839bfae4223fc26d24de5/LpSg/zane/b5316b5672223d0ed8883c2471ce7162/7d3c612a.jpg"
    },
@@ -910,6 +910,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/6b4671feb980fbf1b8a07085a1104c6e/Hk9F/zane/8a5d9fdfdb3b7555b959eb218d265ad4/496ce40a.png"
    },
    {
+      "userId": 252211,
+      "userName": "252211",
+      "total": 41,
+      "answeredQuestionMany": 36,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 31592,
       "userName": "daren",
       "total": 37,
@@ -978,13 +985,6 @@
       "total": 40,
       "answeredQuestionMany": 33,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/925e93281a22666d6cfb35172a3719d4/sjyH/zane/b382e24b7a309369a54863283787d39b/74064ef0.png"
-   },
-   {
-      "userId": 252211,
-      "userName": "252211",
-      "total": 38,
-      "answeredQuestionMany": 33,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 29606,
@@ -13945,7 +13945,7 @@
    },
    {
       "userId": 216255,
-      "userName": "pitti",
+      "userName": "UnknownUser",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
