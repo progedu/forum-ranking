@@ -2,15 +2,15 @@
    {
       "userId": 252211,
       "userName": "252211",
-      "total": 18,
-      "answeredQuestionMany": 11,
+      "total": 20,
+      "answeredQuestionMany": 13,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 202894,
       "userName": "ゲスト",
-      "total": 10,
-      "answeredQuestionMany": 10,
+      "total": 12,
+      "answeredQuestionMany": 12,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
@@ -77,6 +77,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
    },
    {
+      "userId": 241691,
+      "userName": "N塾",
+      "total": 3,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
+   },
+   {
       "userId": 215410,
       "userName": "sakura",
       "total": 2,
@@ -103,6 +110,13 @@
       "total": 3,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
+      "userId": 252463,
+      "userName": "252463",
+      "total": 3,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
    },
    {
       "userId": 254196,
@@ -133,11 +147,11 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    },
    {
-      "userId": 241691,
-      "userName": "N塾",
-      "total": 2,
+      "userId": 255041,
+      "userName": "雅",
+      "total": 1,
       "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/4379a259227cacb86bb0b4192d2c28c9/KxNf/zane/61d0a0874fac58234747385d43e7d1e0/c575d36d.jpeg"
    },
    {
       "userId": 239418,
@@ -194,19 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
-   },
-   {
-      "userId": 241912,
-      "userName": "綾人",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/cd539d1ec6fda1f6485117bc0ab2bcae/wPQa/zane/b0729361bcee8a7a4ef215e6f7b06dd7/b674aefd.jpeg"
-   },
-   {
-      "userId": 231443,
-      "userName": "Mikan",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
    }
 ]
