@@ -51,8 +51,8 @@
    {
       "userId": 202894,
       "userName": "ゲスト",
-      "total": 631,
-      "answeredQuestionMany": 405,
+      "total": 630,
+      "answeredQuestionMany": 404,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
@@ -574,13 +574,6 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
    },
    {
-      "userId": 252211,
-      "userName": "252211",
-      "total": 77,
-      "answeredQuestionMany": 58,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
-   },
-   {
       "userId": 44983,
       "userName": "みーくん",
       "total": 66,
@@ -600,6 +593,13 @@
       "total": 94,
       "answeredQuestionMany": 57,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/697/6979968.jpg?1256805119"
+   },
+   {
+      "userId": 252211,
+      "userName": "252211",
+      "total": 77,
+      "answeredQuestionMany": 57,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 38482,
@@ -3584,6 +3584,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
    },
    {
+      "userId": 187744,
+      "userName": "ryu",
+      "total": 8,
+      "answeredQuestionMany": 6,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 23405,
       "userName": "岩里　政男",
       "total": 8,
@@ -4170,13 +4177,6 @@
       "total": 8,
       "answeredQuestionMany": 5,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
-   },
-   {
-      "userId": 187744,
-      "userName": "ryu",
-      "total": 7,
-      "answeredQuestionMany": 5,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 219271,
@@ -13405,18 +13405,11 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
-      "userId": 251901,
-      "userName": "251901",
+      "userId": 260716,
+      "userName": "ゆい",
       "total": 1,
       "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
-   },
-   {
-      "userId": 255041,
-      "userName": "雅",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/4379a259227cacb86bb0b4192d2c28c9/KxNf/zane/61d0a0874fac58234747385d43e7d1e0/c575d36d.jpeg"
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/4afdbbb11a451ad78fc8e7b7c28ee17a/pvo2/zane/caf55e931d2dc5b1223e2571ae443675/921a00d8.jpeg"
    },
    {
       "userId": 261833,
