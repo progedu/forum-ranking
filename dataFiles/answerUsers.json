@@ -247,8 +247,8 @@
    {
       "userId": 252211,
       "userName": "252211",
-      "total": 208,
-      "answeredQuestionMany": 142,
+      "total": 212,
+      "answeredQuestionMany": 144,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
@@ -1141,6 +1141,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/299e64b11de48576a94c88cdf628f78c/15L9/zane/472bd63b34b24e369e5d8265e69de3ff/bbfba456.png"
    },
    {
+      "userId": 261833,
+      "userName": "261833",
+      "total": 46,
+      "answeredQuestionMany": 26,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
+   },
+   {
       "userId": 7016,
       "userName": "内藤 法胤",
       "total": 41,
@@ -1202,13 +1209,6 @@
       "total": 42,
       "answeredQuestionMany": 24,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/05bac9f3c781071e8c6533b9b478e15e/yBnK/zane/61e70431343ab6b41c87be4d0b092882/98bd736b.jpg"
-   },
-   {
-      "userId": 261833,
-      "userName": "261833",
-      "total": 41,
-      "answeredQuestionMany": 24,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
    {
       "userId": 17760,
@@ -13685,6 +13685,20 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
+      "userId": 240494,
+      "userName": "Teppei",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
+   },
+   {
+      "userId": 229371,
+      "userName": "mmm",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+   },
+   {
       "userId": 265921,
       "userName": "TaKuMa",
       "total": 1,
@@ -17242,7 +17256,7 @@
    },
    {
       "userId": 79120,
-      "userName": "坂田アキラ",
+      "userName": "あーちゃん",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/cbbd3d8c318537e69dcdf9c4ffcc397f/BGpa/zane/799b3c923c127b055ae604a33604f56e/d2c631d8.jpg"

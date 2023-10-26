@@ -2,8 +2,8 @@
    {
       "userId": 202894,
       "userName": "ゲスト",
-      "total": 41,
-      "answeredQuestionMany": 25,
+      "total": 46,
+      "answeredQuestionMany": 26,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
@@ -126,6 +126,20 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
+      "userId": 261268,
+      "userName": "261268",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
+   },
+   {
+      "userId": 265237,
+      "userName": "aurora1530",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+   },
+   {
       "userId": 250776,
       "userName": "250776",
       "total": 2,
@@ -182,31 +196,17 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/6c07c3acc86297851853184070c91b62/biUI/zane/b0f9c5bb0e409becaaf1f348348d2849/0ec55187.jpeg"
    },
    {
+      "userId": 29893,
+      "userName": "tatuya",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
+   },
+   {
       "userId": 265921,
       "userName": "TaKuMa",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
-   },
-   {
-      "userId": 258137,
-      "userName": "Petersen graph",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/5a3edc86b6ff5250c19004f1483003d4/Sk4c/zane/b7c1d7428688e9a990425e06e7eb030c/e4c522ae.jpg"
-   },
-   {
-      "userId": 90901,
-      "userName": "ゲスト",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
-   },
-   {
-      "userId": 57617,
-      "userName": "まだお",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/4bc37c1359db468d7c1bd4996e078762/2zNa/zane/b95c29201f824bf53c9af7846683d6b5/66505308.png"
    }
 ]
