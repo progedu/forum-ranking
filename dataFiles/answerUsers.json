@@ -51,7 +51,7 @@
    {
       "userId": 202894,
       "userName": "ゲスト",
-      "total": 813,
+      "total": 814,
       "answeredQuestionMany": 510,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
@@ -2009,6 +2009,13 @@
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/3870/38709484.jpg?1399719134"
    },
    {
+      "userId": 245836,
+      "userName": "ななし",
+      "total": 19,
+      "answeredQuestionMany": 14,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
+   },
+   {
       "userId": 17718,
       "userName": "やっちゃ",
       "total": 18,
@@ -2098,13 +2105,6 @@
       "total": 18,
       "answeredQuestionMany": 13,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
-   },
-   {
-      "userId": 245836,
-      "userName": "ななし",
-      "total": 17,
-      "answeredQuestionMany": 13,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
    },
    {
       "userId": 219469,
