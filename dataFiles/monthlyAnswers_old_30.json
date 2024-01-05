@@ -21,6 +21,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
+      "userId": 258997,
+      "userName": "きゅう",
+      "total": 2,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
+   },
+   {
       "userId": 247282,
       "userName": "247282",
       "total": 2,
@@ -33,6 +40,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/a4dd7114cc75215d52fe8a7fe8b6dab1/mNYq/zane/85c6bad53978b96f03cd3cc8554eccc6/d20a6cce.jpg"
+   },
+   {
+      "userId": 90901,
+      "userName": "ゲスト",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 270839,
