@@ -2,15 +2,15 @@
    {
       "userId": 252211,
       "userName": "数学しかやってこなかった人",
-      "total": 39,
-      "answeredQuestionMany": 21,
+      "total": 40,
+      "answeredQuestionMany": 22,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 202894,
       "userName": "ゲスト",
-      "total": 22,
-      "answeredQuestionMany": 21,
+      "total": 23,
+      "answeredQuestionMany": 22,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
@@ -140,6 +140,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/cbe2db18af28ff9c2758c3cfbff91cac/BCg5/zane/37aff6561e7de1e15a8b8d9ceb5d0c1e/1c7aeb8f.jpg"
    },
    {
+      "userId": 90901,
+      "userName": "ゲスト",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 200627,
       "userName": "らっく",
       "total": 1,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/55c3698a1fd8506c6077d92cfb57a06b/Crvz/zane/72767cb9f878df9a424ea0053b23822b/5a5e09ad.jpg"
-   },
-   {
-      "userId": 29893,
-      "userName": "tatuya",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    }
 ]
