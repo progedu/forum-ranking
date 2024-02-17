@@ -100,8 +100,8 @@
    {
       "userId": 252211,
       "userName": "数学しかやってこなかった人",
-      "total": 392,
-      "answeredQuestionMany": 255,
+      "total": 395,
+      "answeredQuestionMany": 257,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
@@ -1085,6 +1085,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    },
    {
+      "userId": 200627,
+      "userName": "らっく",
+      "total": 42,
+      "answeredQuestionMany": 30,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/9fec023f852061b3b141b26661d6f9a7/S3RE/zane/4a692fd2718bd32a499dba5125554dfd/c213b690.png"
+   },
+   {
       "userId": 207808,
       "userName": "渡部",
       "total": 39,
@@ -1097,13 +1104,6 @@
       "total": 43,
       "answeredQuestionMany": 29,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/5a6ea22cb2dca95be4263e042d9b708b/wE7y/zane/e2b731c11d29a38951bea526bb088355/2e186167.jpg"
-   },
-   {
-      "userId": 200627,
-      "userName": "らっく",
-      "total": 41,
-      "answeredQuestionMany": 29,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/9fec023f852061b3b141b26661d6f9a7/S3RE/zane/4a692fd2718bd32a499dba5125554dfd/c213b690.png"
    },
    {
       "userId": 86183,
@@ -5948,6 +5948,13 @@
       "total": 6,
       "answeredQuestionMany": 3,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
+   },
+   {
+      "userId": 226583,
+      "userName": "takoyaki",
+      "total": 5,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    },
    {
       "userId": 214895,
@@ -14600,13 +14607,6 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/da8851c9b97a300db1653a175d74c499/MYRq/zane/74cb5612c1ff395175fbb73b4a770ae0/7db15d24.jpeg"
-   },
-   {
-      "userId": 226583,
-      "userName": "takoyaki",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    },
    {
       "userId": 190655,
