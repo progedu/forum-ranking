@@ -86,8 +86,8 @@
    {
       "userId": 252211,
       "userName": "数学しかやってこなかった人",
-      "total": 400,
-      "answeredQuestionMany": 261,
+      "total": 401,
+      "answeredQuestionMany": 262,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
@@ -1463,6 +1463,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
    },
    {
+      "userId": 245836,
+      "userName": "ななし",
+      "total": 28,
+      "answeredQuestionMany": 20,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
+   },
+   {
       "userId": 57617,
       "userName": "まだお",
       "total": 27,
@@ -1517,13 +1524,6 @@
       "total": 27,
       "answeredQuestionMany": 19,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/a19b940ae48498e2eae8df8466219fd0/Srap/zane/f41d688c3938a71d9b325d561de43c04/7b558d8e.jpg"
-   },
-   {
-      "userId": 245836,
-      "userName": "ななし",
-      "total": 26,
-      "answeredQuestionMany": 19,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
    },
    {
       "userId": 2306,
@@ -2443,6 +2443,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png"
    },
    {
+      "userId": 187744,
+      "userName": "ryu",
+      "total": 16,
+      "answeredQuestionMany": 11,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 151174,
       "userName": "下衆ト",
       "total": 16,
@@ -2637,13 +2644,6 @@
       "total": 15,
       "answeredQuestionMany": 10,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
-   },
-   {
-      "userId": 187744,
-      "userName": "ryu",
-      "total": 14,
-      "answeredQuestionMany": 10,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 232353,
