@@ -833,6 +833,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
+      "userId": 90901,
+      "userName": "ゲスト",
+      "total": 42,
+      "answeredQuestionMany": 39,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 18635,
       "userName": "金欠",
       "total": 61,
@@ -859,13 +866,6 @@
       "total": 52,
       "answeredQuestionMany": 38,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
-   },
-   {
-      "userId": 90901,
-      "userName": "ゲスト",
-      "total": 41,
-      "answeredQuestionMany": 38,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 17817,
@@ -2226,6 +2226,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/df9f5158dbb4ebd61940fd2c8ab985a6/7tzF/zane/373701be02f005e5f083040f58efc060/d0f1a29e.png"
    },
    {
+      "userId": 42207,
+      "userName": "dori",
+      "total": 19,
+      "answeredQuestionMany": 12,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
+   },
+   {
       "userId": 228128,
       "userName": "Sena",
       "total": 19,
@@ -2427,13 +2434,6 @@
       "total": 19,
       "answeredQuestionMany": 11,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/77fc3e5f9efb3ff9d8ef654b06bf97e9/lPwH/zane/137b7122a30f73876d5dd8a3fada8083/71810d6b.jpg"
-   },
-   {
-      "userId": 42207,
-      "userName": "dori",
-      "total": 18,
-      "answeredQuestionMany": 11,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    },
    {
       "userId": 60856,
