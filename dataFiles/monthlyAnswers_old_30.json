@@ -154,6 +154,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png"
    },
    {
+      "userId": 264205,
+      "userName": "Re",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/d67054a56f17ec02fab1856ad729e48c/ntYk/zane/e1bc7b89d790986946c024903960b469/001180d5.jpg"
+   },
+   {
       "userId": 245836,
       "userName": "ななし",
       "total": 1,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
-   },
-   {
-      "userId": 258370,
-      "userName": "258370",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    }
 ]
