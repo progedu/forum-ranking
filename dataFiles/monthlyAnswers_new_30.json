@@ -23,8 +23,8 @@
    {
       "userId": 273845,
       "userName": "高知県民 @地震被害なし",
-      "total": 18,
-      "answeredQuestionMany": 12,
+      "total": 19,
+      "answeredQuestionMany": 13,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c2f0866a2537f040214533fea6d8aade/ixar/zane/028cdea91724775eff6f89ea1f9b85f9/907c69c6.jpg"
    },
    {
@@ -98,6 +98,20 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
+      "userId": 272463,
+      "userName": "見﨑 颯太",
+      "total": 40,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/8817f18e8ca108399cd79e076c651ed9/87yX/zane/b3c549cbf6adf8ea11825e45b6ec18fc/e72a6c3a.jpeg"
+   },
+   {
+      "userId": 33110,
+      "userName": "トリビューン",
+      "total": 3,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
       "userId": 274926,
       "userName": "miyotake",
       "total": 3,
@@ -154,6 +168,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/fd1cefb1c87c55166fd6e919290f7ee2/oUet/zane/1d4a93d433639562493425ecec34e37c/832f588d.png"
    },
    {
+      "userId": 271884,
+      "userName": "271884",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
+   },
+   {
       "userId": 264476,
       "userName": "tak_38",
       "total": 2,
@@ -175,13 +196,6 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
    },
    {
-      "userId": 33110,
-      "userName": "トリビューン",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
-   },
-   {
       "userId": 286271,
       "userName": "286271",
       "total": 2,
@@ -194,19 +208,5 @@
       "total": 2,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
-   },
-   {
-      "userId": 286742,
-      "userName": "えいり",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
-   },
-   {
-      "userId": 281313,
-      "userName": "281313",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
    }
 ]
