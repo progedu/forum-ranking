@@ -646,8 +646,8 @@
    {
       "userId": 61848,
       "userName": "ゲスト",
-      "total": 59,
-      "answeredQuestionMany": 54,
+      "total": 60,
+      "answeredQuestionMany": 55,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
@@ -819,6 +819,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/331fdae046ba41e5aa30bb4a490ac923/zlK2/zane/45f020f5689f6e6ac7d7ebc72861b307/2f7721fc.png"
    },
    {
+      "userId": 90901,
+      "userName": "ゲスト",
+      "total": 43,
+      "answeredQuestionMany": 40,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 39948,
       "userName": "？→！？→♪☆ミ",
       "total": 134,
@@ -845,13 +852,6 @@
       "total": 47,
       "answeredQuestionMany": 39,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
-   },
-   {
-      "userId": 90901,
-      "userName": "ゲスト",
-      "total": 42,
-      "answeredQuestionMany": 39,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 18635,
@@ -2170,6 +2170,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/bc969787bb302bce59de771b17e050c1/UIjV/zane/b9d2b418a45c179fa6d9cb6e2be528a9/1dc14311.jpg"
    },
    {
+      "userId": 272446,
+      "userName": "勉強頑張るので、頑張ります",
+      "total": 14,
+      "answeredQuestionMany": 14,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 174987,
       "userName": "クマノミ",
       "total": 31,
@@ -2646,13 +2653,6 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
-      "userId": 272446,
-      "userName": "勉強頑張るので、頑張ります",
-      "total": 11,
-      "answeredQuestionMany": 11,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
-   },
-   {
       "userId": 284592,
       "userName": "2",
       "total": 11,
@@ -2777,6 +2777,13 @@
       "total": 15,
       "answeredQuestionMany": 10,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+   },
+   {
+      "userId": 264476,
+      "userName": "tak_38",
+      "total": 14,
+      "answeredQuestionMany": 10,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png"
    },
    {
       "userId": 232353,
@@ -2980,13 +2987,6 @@
       "total": 14,
       "answeredQuestionMany": 9,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
-   },
-   {
-      "userId": 264476,
-      "userName": "tak_38",
-      "total": 13,
-      "answeredQuestionMany": 9,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png"
    },
    {
       "userId": 88563,
@@ -14854,6 +14854,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
+      "userId": 250936,
+      "userName": "yo-ki",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+   },
+   {
       "userId": 240260,
       "userName": "ぼぼぼ",
       "total": 1,
@@ -14894,6 +14901,13 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
+   },
+   {
+      "userId": 20669,
+      "userName": "勉三",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
       "userId": 271988,
