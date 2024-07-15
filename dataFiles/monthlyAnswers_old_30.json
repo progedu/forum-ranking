@@ -2,8 +2,8 @@
    {
       "userId": 272446,
       "userName": "勉強頑張るので、頑張ります",
-      "total": 39,
-      "answeredQuestionMany": 38,
+      "total": 44,
+      "answeredQuestionMany": 43,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
@@ -42,6 +42,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/3df4b0ed9f540476cd1ff789efa12654/wJTL/zane/48702e532d946b74aa7b2600639be1d7/204903d8.jpg"
    },
    {
+      "userId": 200031,
+      "userName": "うさぎ",
+      "total": 4,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/083964351837a58aafb7f17408338a44/5m47/zane/b3f3612e981f8fe439d78d2ebd6cb62c/acb13548.jpg"
+   },
+   {
       "userId": 223668,
       "userName": "ネギ",
       "total": 3,
@@ -75,6 +82,13 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/4351c162347892cb869ff5c8237ec5b5/9xRm/zane/472723b2f4e604a630f13726f235935d/0b56931e.jpeg"
+   },
+   {
+      "userId": 250656,
+      "userName": "250656",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
    },
    {
       "userId": 90901,
@@ -161,6 +175,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/992f2f01895118f2e6339032be38b8df/x1UL/zane/a5f3bbe6c2621ada0028eed843204e9a/f8fe2743.jpeg"
    },
    {
+      "userId": 269026,
+      "userName": "269026",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 279870,
       "userName": "279870",
       "total": 1,
@@ -187,26 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/d6dc360d10644c55baef34cd967b502d/9KRE/zane/c153c7bac976f8a4189ddff648f5bb42/03570849.png"
-   },
-   {
-      "userId": 285441,
-      "userName": "ホワイトモーニング戸川",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
-   },
-   {
-      "userId": 284420,
-      "userName": "284420",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
-   },
-   {
-      "userId": 271994,
-      "userName": "271994",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
    }
 ]
