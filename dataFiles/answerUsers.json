@@ -1001,6 +1001,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png"
    },
    {
+      "userId": 280897,
+      "userName": "みるく",
+      "total": 42,
+      "answeredQuestionMany": 34,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/249e1739ecc946210b2d8f897755489c/H9TJ/zane/67f2bfb0fc2f6e2aff0d3df301e1e601/df04df8c.jpeg"
+   },
+   {
       "userId": 154361,
       "userName": "tkg-tarou",
       "total": 40,
@@ -1020,13 +1027,6 @@
       "total": 45,
       "answeredQuestionMany": 33,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
-   },
-   {
-      "userId": 280897,
-      "userName": "みるく",
-      "total": 41,
-      "answeredQuestionMany": 33,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/249e1739ecc946210b2d8f897755489c/H9TJ/zane/67f2bfb0fc2f6e2aff0d3df301e1e601/df04df8c.jpeg"
    },
    {
       "userId": 6576,
@@ -1927,7 +1927,7 @@
    {
       "userId": 200031,
       "userName": "うさぎ",
-      "total": 23,
+      "total": 24,
       "answeredQuestionMany": 16,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/083964351837a58aafb7f17408338a44/5m47/zane/b3f3612e981f8fe439d78d2ebd6cb62c/acb13548.jpg"
    },
@@ -3577,6 +3577,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/abee619f4cfd85a6980a196ca9e6c96d/U4bI/zane/3dbe922c4a459e661d24683862baeece/4155f653.jpg"
    },
    {
+      "userId": 249091,
+      "userName": "ゲスト",
+      "total": 10,
+      "answeredQuestionMany": 7,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
+   },
+   {
       "userId": 185793,
       "userName": "T.k",
       "total": 10,
@@ -3967,13 +3974,6 @@
       "total": 9,
       "answeredQuestionMany": 6,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
-   },
-   {
-      "userId": 249091,
-      "userName": "ゲスト",
-      "total": 8,
-      "answeredQuestionMany": 6,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
    },
    {
       "userId": 265237,
