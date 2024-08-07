@@ -2884,6 +2884,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/bed0f500ca3e7101ffc545a22b660c0e/WIOr/zane/42f2736ae91ed7e80a524ca53f6cccf0/b0e9c8bd.png"
    },
    {
+      "userId": 290722,
+      "userName": "ゲスト",
+      "total": 10,
+      "answeredQuestionMany": 10,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+   },
+   {
       "userId": 247230,
       "userName": "熊澤理人",
       "total": 10,
@@ -3680,13 +3687,6 @@
       "total": 8,
       "answeredQuestionMany": 7,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c844ffbd4514c5b33cb808872dacb65b/qcBk/zane/08fcb93a107a4be27301dc55ec3386ba/dd0bbc91.jpg"
-   },
-   {
-      "userId": 290722,
-      "userName": "ゲスト",
-      "total": 7,
-      "answeredQuestionMany": 7,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 28624,
@@ -7077,6 +7077,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/60e025df36e3d125af5ceede12ada7bb/8vhp/zane/1a10252142e92fcb6176e8d33bd747ab/fa80da33.png"
    },
    {
+      "userId": 218942,
+      "userName": "有澤陸",
+      "total": 3,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/63009cadf4f213f1bdd7ad5946be417b/hzVn/zane/24f410eed6b2167d408a5911d69125fb/b5ce2fda.png"
+   },
+   {
       "userId": 22060,
       "userName": "弥天",
       "total": 3,
@@ -9476,13 +9483,6 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/901c4eba056ea107c8434e6970ebe655/ZKpr/zane/1b979895c3936322639a09b1ca81e73a/35ddd81d.jpg"
-   },
-   {
-      "userId": 218942,
-      "userName": "有澤陸",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/63009cadf4f213f1bdd7ad5946be417b/hzVn/zane/24f410eed6b2167d408a5911d69125fb/b5ce2fda.png"
    },
    {
       "userId": 288766,
@@ -21417,7 +21417,7 @@
       "userName": "mAyu",
       "total": 1,
       "answeredQuestionMany": 1,
-      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/7861/78611025.jpg?1599135371"
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
       "userId": 91717,
