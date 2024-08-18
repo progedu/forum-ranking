@@ -3052,6 +3052,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
    },
    {
+      "userId": 289629,
+      "userName": "289629",
+      "total": 11,
+      "answeredQuestionMany": 9,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
       "userId": 259751,
       "userName": "Sarah",
       "total": 11,
@@ -3407,13 +3414,6 @@
       "total": 9,
       "answeredQuestionMany": 8,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png"
-   },
-   {
-      "userId": 289629,
-      "userName": "289629",
-      "total": 8,
-      "answeredQuestionMany": 8,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 143531,
@@ -5292,6 +5292,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
+      "userId": 290038,
+      "userName": "さゆ",
+      "total": 8,
+      "answeredQuestionMany": 4,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/47ce980d40e50a777e1cefc5210969ca/2zZl/zane/e36dd475effae94302519f829dc19a67/765502c1.jpg"
+   },
+   {
       "userId": 208433,
       "userName": "齊藤陽生",
       "total": 8,
@@ -5332,13 +5339,6 @@
       "total": 8,
       "answeredQuestionMany": 4,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/6e8d47ce2a74bb90faa7e15d78f47a56/CxqN/zane/9e5e2915c23f0fcb3a055ab668e9742f/415b72a3.png"
-   },
-   {
-      "userId": 290038,
-      "userName": "さゆ",
-      "total": 7,
-      "answeredQuestionMany": 4,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/47ce980d40e50a777e1cefc5210969ca/2zZl/zane/e36dd475effae94302519f829dc19a67/765502c1.jpg"
    },
    {
       "userId": 287928,
@@ -14999,6 +14999,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+   },
+   {
+      "userId": 269843,
+      "userName": "のーあ。",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/eac1298b8a25ad29fee3961c52eafad5/3Sed/zane/96247b806b2fd741b4c34d87bd63e243/1e6894be.jpg"
    },
    {
       "userId": 280880,
