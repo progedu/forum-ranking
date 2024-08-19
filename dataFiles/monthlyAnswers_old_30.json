@@ -30,7 +30,7 @@
    {
       "userId": 290038,
       "userName": "さゆ",
-      "total": 7,
+      "total": 8,
       "answeredQuestionMany": 4,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/47ce980d40e50a777e1cefc5210969ca/2zZl/zane/e36dd475effae94302519f829dc19a67/765502c1.jpg"
    },
@@ -40,6 +40,13 @@
       "total": 6,
       "answeredQuestionMany": 4,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
+   },
+   {
+      "userId": 289629,
+      "userName": "289629",
+      "total": 5,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 46536,
@@ -54,13 +61,6 @@
       "total": 4,
       "answeredQuestionMany": 3,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/249e1739ecc946210b2d8f897755489c/H9TJ/zane/67f2bfb0fc2f6e2aff0d3df301e1e601/df04df8c.jpeg"
-   },
-   {
-      "userId": 289629,
-      "userName": "289629",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 214221,
@@ -117,6 +117,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/5291cfb9b23eb38724e94589b516f3d0/TeVa/zane/38ab43f8a953ea948c3491c599286ad4/a2729ea9.png"
+   },
+   {
+      "userId": 269843,
+      "userName": "のーあ。",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/eac1298b8a25ad29fee3961c52eafad5/3Sed/zane/96247b806b2fd741b4c34d87bd63e243/1e6894be.jpg"
    },
    {
       "userId": 228192,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/4e3dd78ba72b1ec13680c42ef81e2592/VcwA/zane/b65fd28d62a73d634be0c61baec6e5f5/86f0662c.png"
-   },
-   {
-      "userId": 273766,
-      "userName": "273766",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
    }
 ]
