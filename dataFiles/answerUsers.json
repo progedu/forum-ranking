@@ -72,8 +72,8 @@
    {
       "userId": 252211,
       "userName": "暇な人",
-      "total": 532,
-      "answeredQuestionMany": 342,
+      "total": 539,
+      "answeredQuestionMany": 344,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
@@ -1267,6 +1267,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7e21b99a94169b84d50a1c59f16042e9/3p4s/zane/d13ea557124dfe00b4e548978304b5d3/d0d03b86.png"
    },
    {
+      "userId": 226630,
+      "userName": "ゲスト",
+      "total": 30,
+      "answeredQuestionMany": 25,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
+   },
+   {
       "userId": 221074,
       "userName": "タッカー",
       "total": 30,
@@ -1328,13 +1335,6 @@
       "total": 30,
       "answeredQuestionMany": 24,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/dc0d6ad085b65532e43ca73e30d6fb02/Jqlm/zane/faa62e412b2efce6bdb366437ecd5abf/c34d09a5.jpg"
-   },
-   {
-      "userId": 226630,
-      "userName": "ゲスト",
-      "total": 29,
-      "answeredQuestionMany": 24,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
    },
    {
       "userId": 207721,
@@ -1715,6 +1715,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
    },
    {
+      "userId": 200031,
+      "userName": "うさぎ",
+      "total": 26,
+      "answeredQuestionMany": 18,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/083964351837a58aafb7f17408338a44/5m47/zane/b3f3612e981f8fe439d78d2ebd6cb62c/acb13548.jpg"
+   },
+   {
       "userId": 228192,
       "userName": "よーだ",
       "total": 25,
@@ -1944,13 +1951,6 @@
       "total": 25,
       "answeredQuestionMany": 16,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/250472b78dded9887cdd29b17fc12e28/9I12/zane/73f6e66b14c5850f84e75f2428e35abf/c1a60cdd.png"
-   },
-   {
-      "userId": 200031,
-      "userName": "うさぎ",
-      "total": 24,
-      "answeredQuestionMany": 16,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/083964351837a58aafb7f17408338a44/5m47/zane/b3f3612e981f8fe439d78d2ebd6cb62c/acb13548.jpg"
    },
    {
       "userId": 142981,
