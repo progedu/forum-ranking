@@ -70,6 +70,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
    },
    {
+      "userId": 241763,
+      "userName": "Akina",
+      "total": 5,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png"
+   },
+   {
       "userId": 75234,
       "userName": "すずき＠世界一アイコンかわいい",
       "total": 5,
@@ -91,11 +98,11 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/b9e5a80fe1c4f01d0db3f6a9f20e2c69/8Gi1/zane/405bdd15b651b093c2c71747af5dfba6/7e808377.jpg"
    },
    {
-      "userId": 241763,
-      "userName": "Akina",
-      "total": 3,
+      "userId": 218942,
+      "userName": "有澤陸",
+      "total": 2,
       "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png"
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/63009cadf4f213f1bdd7ad5946be417b/hzVn/zane/24f410eed6b2167d408a5911d69125fb/b5ce2fda.png"
    },
    {
       "userId": 200031,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png"
-   },
-   {
-      "userId": 269843,
-      "userName": "のーあ。",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/eac1298b8a25ad29fee3961c52eafad5/3Sed/zane/96247b806b2fd741b4c34d87bd63e243/1e6894be.jpg"
    }
 ]
