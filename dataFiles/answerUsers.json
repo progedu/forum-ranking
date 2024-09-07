@@ -1036,6 +1036,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/925e93281a22666d6cfb35172a3719d4/sjyH/zane/b382e24b7a309369a54863283787d39b/74064ef0.png"
    },
    {
+      "userId": 290722,
+      "userName": "ゲスト",
+      "total": 35,
+      "answeredQuestionMany": 33,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+   },
+   {
       "userId": 29606,
       "userName": "Bird",
       "total": 51,
@@ -1048,13 +1055,6 @@
       "total": 41,
       "answeredQuestionMany": 32,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
-   },
-   {
-      "userId": 290722,
-      "userName": "ゲスト",
-      "total": 34,
-      "answeredQuestionMany": 32,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 243618,
@@ -9590,6 +9590,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
+      "userId": 291895,
+      "userName": "カツオ♂",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
+   },
+   {
       "userId": 292947,
       "userName": "しがないN中1年生",
       "total": 2,
@@ -9612,7 +9619,7 @@
    },
    {
       "userId": 288766,
-      "userName": "s",
+      "userName": "吉田",
       "total": 2,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
@@ -15120,13 +15127,6 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/e1814cb8adaff9c5e07ada9efd592751/tYln/zane/509b0907ef9f933b667baa342ad5568d/4eb0c61c.jpg"
    },
    {
-      "userId": 291895,
-      "userName": "カツオ♂",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
-   },
-   {
       "userId": 253490,
       "userName": "りさ",
       "total": 1,
@@ -15776,6 +15776,13 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/0c7d2a11f0f25d034eb79a208a3cdf9d/MnWL/zane/4cd8ff8be541e652318fd7d1e09823c7/b18439df.jpg"
+   },
+   {
+      "userId": 251298,
+      "userName": "長瀬大冴人",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/8a95db3ece94a7b766d26332dbf8a79d/CGql/zane/04c0febc902d7c17b3dd5eae28d31c71/e90adf96.jpg"
    },
    {
       "userId": 279946,
