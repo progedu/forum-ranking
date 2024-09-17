@@ -197,7 +197,7 @@ function resultTextSync() {
         `以下 30位 までの順位は画像のようになっております。`,
         ``,
         ``,
-        `今後とも N予備校 とフォーラムをよろしくお願い致します。`,
+        `今後とも ZEN Study とフォーラムをよろしくお願い致します。`,
         `https://progedu.github.io/forum-ranking/`
     ].join('\n');
 
