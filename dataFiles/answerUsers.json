@@ -261,8 +261,8 @@
    {
       "userId": 33110,
       "userName": "トリビューン",
-      "total": 226,
-      "answeredQuestionMany": 134,
+      "total": 227,
+      "answeredQuestionMany": 135,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
@@ -742,6 +742,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/b00053d9872e6095f39cc455e1436616/EqJ6/zane/a5f6beaf0a233adc9b703b3aa461f4d1/e2ebf2f0.jpg"
    },
    {
+      "userId": 290722,
+      "userName": "ゲスト",
+      "total": 59,
+      "answeredQuestionMany": 46,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+   },
+   {
       "userId": 272446,
       "userName": "勉強頑張るので、頑張ります",
       "total": 47,
@@ -754,13 +761,6 @@
       "total": 47,
       "answeredQuestionMany": 46,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c2d01334ca9e54ccdb12b2bd816701f2/mhjI/zane/75eeb071ad864e11798aee9750755b37/29832a88.jpg"
-   },
-   {
-      "userId": 290722,
-      "userName": "ゲスト",
-      "total": 58,
-      "answeredQuestionMany": 45,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 16281,
@@ -854,6 +854,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
    },
    {
+      "userId": 289629,
+      "userName": "289629",
+      "total": 51,
+      "answeredQuestionMany": 39,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
       "userId": 111587,
       "userName": "Nino",
       "total": 50,
@@ -901,13 +908,6 @@
       "total": 52,
       "answeredQuestionMany": 38,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
-   },
-   {
-      "userId": 289629,
-      "userName": "289629",
-      "total": 50,
-      "answeredQuestionMany": 38,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 280897,
