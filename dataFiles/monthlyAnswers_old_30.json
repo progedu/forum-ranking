@@ -2,8 +2,8 @@
    {
       "userId": 289629,
       "userName": "289629",
-      "total": 33,
-      "answeredQuestionMany": 26,
+      "total": 38,
+      "answeredQuestionMany": 31,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
@@ -82,6 +82,13 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
+      "userId": 257480,
+      "userName": "1",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
    },
    {
       "userId": 90901,
@@ -182,31 +189,24 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/956af3dc14cb085b533a2348cffdc68c/poav/zane/5c8097e9e3fb935a75aeb04203ceffdd/2010e72e.png"
    },
    {
+      "userId": 223830,
+      "userName": "ゲスト",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
+   },
+   {
+      "userId": 139793,
+      "userName": "ニコニコ海苔",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/9a1c115bb97718597c190656a983fd7c/Bdkn/zane/65b01f2b9cac0e418be875b7668ebdf9/1c967831.jpg"
+   },
+   {
       "userId": 294211,
       "userName": "本能寺が変",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png"
-   },
-   {
-      "userId": 269594,
-      "userName": "269594",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
-   },
-   {
-      "userId": 294177,
-      "userName": "カツオ♂",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
-   },
-   {
-      "userId": 269418,
-      "userName": "Hey",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/ee41217cf1b28c5dc0905910490ff82b/DjWw/zane/e07d18f835a6cefa1ae5414d43d6f9be/869b6850.jpg"
    }
 ]
