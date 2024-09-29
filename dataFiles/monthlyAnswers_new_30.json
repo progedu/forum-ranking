@@ -2,9 +2,16 @@
    {
       "userId": 289629,
       "userName": "289629",
-      "total": 49,
-      "answeredQuestionMany": 40,
+      "total": 51,
+      "answeredQuestionMany": 42,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
+      "userId": 290722,
+      "userName": "ゲスト",
+      "total": 33,
+      "answeredQuestionMany": 19,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 252211,
@@ -12,13 +19,6 @@
       "total": 29,
       "answeredQuestionMany": 19,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
-   },
-   {
-      "userId": 290722,
-      "userName": "ゲスト",
-      "total": 31,
-      "answeredQuestionMany": 17,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 230298,
@@ -54,6 +54,13 @@
       "total": 6,
       "answeredQuestionMany": 5,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/2f96a2b0bb49a88dedaa20bc0d8c36a1/HfoZ/zane/a84a50f124ebf3ca40c7b569f6214a6a/639706d5.jpeg"
+   },
+   {
+      "userId": 178771,
+      "userName": "らっく",
+      "total": 6,
+      "answeredQuestionMany": 4,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
    },
    {
       "userId": 281852,
@@ -196,17 +203,10 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/956af3dc14cb085b533a2348cffdc68c/poav/zane/5c8097e9e3fb935a75aeb04203ceffdd/2010e72e.png"
    },
    {
-      "userId": 223830,
+      "userId": 291321,
       "userName": "ゲスト",
       "total": 1,
       "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
-   },
-   {
-      "userId": 139793,
-      "userName": "ニコニコ海苔",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/9a1c115bb97718597c190656a983fd7c/Bdkn/zane/65b01f2b9cac0e418be875b7668ebdf9/1c967831.jpg"
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    }
 ]
