@@ -581,18 +581,18 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/1f67cc600f49f7ea0ad9691493367894/6tKv/zane/16be4a6577adbba69832356c6d75b58c/3134466d.jpg"
    },
    {
+      "userId": 290722,
+      "userName": "ゲスト",
+      "total": 83,
+      "answeredQuestionMany": 59,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+   },
+   {
       "userId": 131710,
       "userName": "ライト",
       "total": 95,
       "answeredQuestionMany": 58,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
-   },
-   {
-      "userId": 290722,
-      "userName": "ゲスト",
-      "total": 79,
-      "answeredQuestionMany": 58,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 44983,
@@ -924,6 +924,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/446bbc1337d5cadcd888e3ca7eb7691e/M16F/zane/82662ac72c64530cb579f8af693083de/cf84ce88.jpg"
    },
    {
+      "userId": 243618,
+      "userName": "ゲスト",
+      "total": 104,
+      "answeredQuestionMany": 37,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
+   },
+   {
       "userId": 18749,
       "userName": "四季",
       "total": 81,
@@ -957,13 +964,6 @@
       "total": 39,
       "answeredQuestionMany": 37,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/2de3be83634120b83beb6acd0ad2fabc/skt1/zane/9d30b9b1891e1bb075049e7501b70609/c9b00cc3.jpg"
-   },
-   {
-      "userId": 243618,
-      "userName": "ゲスト",
-      "total": 102,
-      "answeredQuestionMany": 36,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
    },
    {
       "userId": 200094,
@@ -15216,6 +15216,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+   },
+   {
+      "userId": 252732,
+      "userName": "252732",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
    {
       "userId": 252360,
