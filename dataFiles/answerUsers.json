@@ -525,18 +525,18 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
+      "userId": 291321,
+      "userName": "ゲスト",
+      "total": 101,
+      "answeredQuestionMany": 69,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
+   },
+   {
       "userId": 83931,
       "userName": "masa",
       "total": 94,
       "answeredQuestionMany": 69,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
-   },
-   {
-      "userId": 291321,
-      "userName": "ゲスト",
-      "total": 100,
-      "answeredQuestionMany": 68,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
    {
       "userId": 19570,
@@ -2093,6 +2093,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/5b9e2ed40c39b1b7961f88298d342383/BMoE/zane/8114b022ae7d636317c0cac891c5b545/e454360f.jpg"
    },
    {
+      "userId": 220727,
+      "userName": "暇人",
+      "total": 25,
+      "answeredQuestionMany": 15,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
+   },
+   {
       "userId": 13291,
       "userName": "ファンドラル・スタッグヘルム",
       "total": 25,
@@ -2196,13 +2203,6 @@
       "total": 16,
       "answeredQuestionMany": 15,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7d6bc74eee2f502dd724b0862d4f3482/6crg/zane/34e41d4125ca22083b2eff27868bc16e/f80ba7b9.png"
-   },
-   {
-      "userId": 220727,
-      "userName": "暇人",
-      "total": 24,
-      "answeredQuestionMany": 14,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
    },
    {
       "userId": 224747,
