@@ -2,8 +2,8 @@
    {
       "userId": 290722,
       "userName": "lv15",
-      "total": 68,
-      "answeredQuestionMany": 46,
+      "total": 71,
+      "answeredQuestionMany": 48,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/d1f8832be160c6a9d7d3485a59618060/tcOH/zane/14a48c11211b9ccb5d5a3550f531cb4a/1f8c4c2d.jpeg"
    },
    {
@@ -44,8 +44,8 @@
    {
       "userId": 288431,
       "userName": "ふにゃ",
-      "total": 8,
-      "answeredQuestionMany": 6,
+      "total": 14,
+      "answeredQuestionMany": 8,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/32bd59f0fb54136dae54e9e2f0c1aef8/MNcV/zane/bf52c2bd9aa417c9be3ee136c0a921bd/191cf24a.jpg"
    },
    {
@@ -93,7 +93,7 @@
    {
       "userId": 257480,
       "userName": "1",
-      "total": 4,
+      "total": 6,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
    },
@@ -124,6 +124,13 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
+   },
+   {
+      "userId": 33110,
+      "userName": "トリビューン",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 287956,
@@ -161,6 +168,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7fba7c89f46e800b4b43fc636977343a/TVlx/zane/b2bf3f6b0e97744626e5a79105649f73/fa2fd7cd.png"
    },
    {
+      "userId": 296101,
+      "userName": "296101",
+      "total": 3,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
+   },
+   {
       "userId": 75234,
       "userName": "すずき＠世界一アイコンかわいい",
       "total": 3,
@@ -182,13 +196,6 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/e8bcd21c092b0f48b86b38c1682b57e6/iPXH/zane/5a7c854a20b8776d6f7eaa067367034e/2790dc48.png"
    },
    {
-      "userId": 296101,
-      "userName": "296101",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
-   },
-   {
       "userId": 290639,
       "userName": "ZEN Study運営",
       "total": 2,
@@ -201,12 +208,5 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
-   },
-   {
-      "userId": 303382,
-      "userName": "ゲスト",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
    }
 ]
