@@ -336,17 +336,17 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
    },
    {
+      "userId": 291321,
+      "userName": "ゲスト",
+      "total": 168,
+      "answeredQuestionMany": 114,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
+   },
+   {
       "userId": 215609,
       "userName": "あ",
       "total": 219,
       "answeredQuestionMany": 113,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/dcb6ebcce36eb6bae7e13884624b6c14/PNgz/zane/63d7c5d4ec80613ac95493da6cc0ab1c/6ae47b1f.jpg"
-   },
-   {
-      "userId": 291321,
-      "userName": "ゲスト",
-      "total": 166,
-      "answeredQuestionMany": 113,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    }
 ]
