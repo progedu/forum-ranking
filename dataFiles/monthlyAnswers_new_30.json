@@ -2,7 +2,7 @@
    {
       "userId": 293275,
       "userName": "なんかすごい良い感じ",
-      "total": 61,
+      "total": 56,
       "answeredQuestionMany": 25,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/1d1f70172f4cb5325df4b865a97711de/hOPl/zane/6aabd23958d4789be2b5799d1cb62441/107687c5.jpg"
    },
@@ -30,7 +30,7 @@
    {
       "userId": 296138,
       "userName": "りゅ",
-      "total": 50,
+      "total": 51,
       "answeredQuestionMany": 7,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
    },
@@ -75,13 +75,6 @@
       "total": 4,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
-   },
-   {
-      "userId": 280749,
-      "userName": "ワッパステイ主席万歳",
-      "total": 3,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/f726994f3e4e300d125f340397689479/epXO/zane/c238be4bd03fe9cddbe221ac122c7ae3/c7379ae5.png"
    },
    {
       "userId": 226630,
@@ -161,6 +154,20 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
    },
    {
+      "userId": 280749,
+      "userName": "ワッパステイ主席万歳",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/f726994f3e4e300d125f340397689479/epXO/zane/c238be4bd03fe9cddbe221ac122c7ae3/c7379ae5.png"
+   },
+   {
+      "userId": 307257,
+      "userName": "Ame Edam",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
+   },
+   {
       "userId": 292777,
       "userName": "ゆうゆう",
       "total": 1,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
-   },
-   {
-      "userId": 247025,
-      "userName": "chim",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/3831c4e22e3389548f37f6fcf5982da6/Aimn/zane/0a6ff3b1a79b9ef9c386b43876a400f0/37df68a4.jpeg"
    }
 ]
