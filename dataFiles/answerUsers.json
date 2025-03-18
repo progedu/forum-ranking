@@ -317,7 +317,7 @@
    {
       "userId": 291321,
       "userName": "ゲスト",
-      "total": 190,
+      "total": 191,
       "answeredQuestionMany": 123,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
@@ -478,8 +478,8 @@
    {
       "userId": 293275,
       "userName": "なんかすごい良い感じ",
-      "total": 172,
-      "answeredQuestionMany": 76,
+      "total": 173,
+      "answeredQuestionMany": 77,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/1d1f70172f4cb5325df4b865a97711de/hOPl/zane/6aabd23958d4789be2b5799d1cb62441/107687c5.jpg"
    },
    {
@@ -539,18 +539,18 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
+      "userId": 288431,
+      "userName": "ふにゃ",
+      "total": 110,
+      "answeredQuestionMany": 69,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/32bd59f0fb54136dae54e9e2f0c1aef8/MNcV/zane/bf52c2bd9aa417c9be3ee136c0a921bd/191cf24a.jpg"
+   },
+   {
       "userId": 83931,
       "userName": "masa",
       "total": 94,
       "answeredQuestionMany": 69,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-orange.png"
-   },
-   {
-      "userId": 288431,
-      "userName": "ふにゃ",
-      "total": 108,
-      "answeredQuestionMany": 68,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/32bd59f0fb54136dae54e9e2f0c1aef8/MNcV/zane/bf52c2bd9aa417c9be3ee136c0a921bd/191cf24a.jpg"
    },
    {
       "userId": 19570,
@@ -735,18 +735,18 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/5420705ac9f00e019ab7762a088e9dcb/npA3/zane/858552670885064ed5727d961d7e9cff/6b9a73f6.png"
    },
    {
+      "userId": 226630,
+      "userName": "ゲスト",
+      "total": 63,
+      "answeredQuestionMany": 50,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/23dbb6500c5d365b1fb3d9535f12f3c4/GiSQ/zane/78f488358644c941ffd9ebca99b340ee/bc060875.png"
+   },
+   {
       "userId": 280897,
       "userName": "みるく",
       "total": 62,
       "answeredQuestionMany": 50,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/249e1739ecc946210b2d8f897755489c/H9TJ/zane/67f2bfb0fc2f6e2aff0d3df301e1e601/df04df8c.jpeg"
-   },
-   {
-      "userId": 226630,
-      "userName": "ゲスト",
-      "total": 61,
-      "answeredQuestionMany": 50,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/23dbb6500c5d365b1fb3d9535f12f3c4/GiSQ/zane/78f488358644c941ffd9ebca99b340ee/bc060875.png"
    },
    {
       "userId": 17070,
@@ -15545,6 +15545,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+   },
+   {
+      "userId": 311057,
+      "userName": "マチノン",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/3c41d96a0b905b65c268cefcf7673ea6/2FbU/zane/2850ad8381641a8b679a69a8352cff6d/a787b44e.jpg"
    },
    {
       "userId": 302001,
