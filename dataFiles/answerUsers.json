@@ -289,8 +289,8 @@
    {
       "userId": 291321,
       "userName": "ゲスト",
-      "total": 228,
-      "answeredQuestionMany": 137,
+      "total": 229,
+      "answeredQuestionMany": 138,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
    {
@@ -1169,6 +1169,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/cbccf3c50f234587d7937dea5b3d5bf3/kowc/zane/90ff5c9ae4d73024043f7b442a74df61/a3b1e99a.png"
    },
    {
+      "userId": 296216,
+      "userName": "ゲスト",
+      "total": 46,
+      "answeredQuestionMany": 31,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
+   },
+   {
       "userId": 245836,
       "userName": "ななし",
       "total": 45,
@@ -1216,13 +1223,6 @@
       "total": 39,
       "answeredQuestionMany": 30,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
-   },
-   {
-      "userId": 296216,
-      "userName": "ゲスト",
-      "total": 44,
-      "answeredQuestionMany": 29,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
       "userId": 83444,
@@ -1426,6 +1426,13 @@
       "total": 30,
       "answeredQuestionMany": 24,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/dc0d6ad085b65532e43ca73e30d6fb02/Jqlm/zane/faa62e412b2efce6bdb366437ecd5abf/c34d09a5.jpg"
+   },
+   {
+      "userId": 311916,
+      "userName": "AA",
+      "total": 25,
+      "answeredQuestionMany": 24,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 207721,
@@ -1685,13 +1692,6 @@
       "total": 23,
       "answeredQuestionMany": 20,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/a67b910da035f01497530aa6c7796ad7/kMYd/zane/805441649a7c368034e978ed12c3d102/b07d867c.jpg"
-   },
-   {
-      "userId": 311916,
-      "userName": "AA",
-      "total": 21,
-      "answeredQuestionMany": 20,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 172442,
@@ -7494,7 +7494,7 @@
       "userName": "みなと",
       "total": 3,
       "answeredQuestionMany": 3,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/198afbc925e76221ba9a6a3e4118f7e9/x2wk/zane/ead5cc6b73620dda5332f3d0e8798e62/79530e88.png"
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/096368bd979d50340bcc27d8d45e807f/LNDx/zane/1ab97be2636b880e70b1fa59be4c1505/63ef36d4.jpg"
    },
    {
       "userId": 292413,
@@ -9114,6 +9114,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
    },
    {
+      "userId": 320720,
+      "userName": "TA",
+      "total": 3,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-blue.png"
+   },
+   {
       "userId": 240317,
       "userName": "クリス",
       "total": 3,
@@ -10022,6 +10029,13 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/901c4eba056ea107c8434e6970ebe655/ZKpr/zane/1b979895c3936322639a09b1ca81e73a/35ddd81d.jpg"
+   },
+   {
+      "userId": 242014,
+      "userName": "りす",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/37a099a76f3ee8e1bc061e8b8b000225/h8a3/zane/927b95c7078325e723bb7f75cf018e08/cc73cfeb.jpg"
    },
    {
       "userId": 261718,
@@ -15909,6 +15923,27 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+   },
+   {
+      "userId": 306857,
+      "userName": "306857",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png"
+   },
+   {
+      "userId": 310872,
+      "userName": "ゲスト",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
+   },
+   {
+      "userId": 300537,
+      "userName": "ゆーだい",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/29d012b304b05b8e0cee7df5c9641c54/2Gyj/zane/7799a2bd3c5d6b2337e6a40f8b2ae290/aeb18c01.jpeg"
    },
    {
       "userId": 309762,
