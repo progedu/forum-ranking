@@ -21,6 +21,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
    {
+      "userId": 320967,
+      "userName": "ZEN Study運営",
+      "total": 4,
+      "answeredQuestionMany": 4,
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13999/139998859.jpg?1746764872"
+   },
+   {
       "userId": 296216,
       "userName": "ゲスト",
       "total": 6,
@@ -30,29 +37,22 @@
    {
       "userId": 265104,
       "userName": "265104",
-      "total": 5,
+      "total": 6,
       "answeredQuestionMany": 3,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/fabf58e1e4481480b55da4fa13a1607a/OtyX/zane/4d9cfdb41ef79bab668e452fa8eaf346/0410104c.png"
    },
    {
-      "userId": 320967,
-      "userName": "ZEN Study運営",
-      "total": 3,
-      "answeredQuestionMany": 3,
-      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13999/139998859.jpg?1746764872"
-   },
-   {
       "userId": 311916,
-      "userName": "AA",
-      "total": 4,
-      "answeredQuestionMany": 2,
+      "userName": "アカデミック・アドバイザー",
+      "total": 5,
+      "answeredQuestionMany": 3,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 252211,
       "userName": "一介の数学好き",
-      "total": 3,
-      "answeredQuestionMany": 2,
+      "total": 4,
+      "answeredQuestionMany": 3,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7619c67f49749da650d45d46636692c8/XLGv/zane/26e5977705020db3832dd7e75f378c7a/d43dcecb.png"
    },
    {
@@ -82,6 +82,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/c2a9448ff4706087b3a493b3bc47edd5/Cdg8/zane/b61f559fdc723ce5fbff9b75c7f0efb5/921ebf34.jpeg"
+   },
+   {
+      "userId": 247516,
+      "userName": "247516",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
    },
    {
       "userId": 303837,
@@ -183,7 +190,7 @@
    },
    {
       "userId": 314360,
-      "userName": "AA",
+      "userName": "アカデミック・アドバイザー",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png"
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/2f96a2b0bb49a88dedaa20bc0d8c36a1/HfoZ/zane/a84a50f124ebf3ca40c7b569f6214a6a/639706d5.jpeg"
-   },
-   {
-      "userId": 42207,
-      "userName": "dori",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/92bb2247d54519a096e20b96e6b816da/uGWP/zane/9cff193795b8cbdb90a9bd9c06a26958/faf6955a.jpg"
    }
 ]
