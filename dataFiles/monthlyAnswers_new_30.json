@@ -21,18 +21,18 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/5039d47526635710edfe5ab038b2f8ef/f9Vn/zane/4e6f67a6f4f2a068942474d158972cd2/23479ecf.jpeg"
    },
    {
+      "userId": 321325,
+      "userName": "321325",
+      "total": 5,
+      "answeredQuestionMany": 5,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+   },
+   {
       "userId": 319124,
       "userName": "社会保険料って高いよね^_^",
       "total": 4,
       "answeredQuestionMany": 4,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/48eb1dff7ec088d13a68848e5542799e/OC13/zane/eb6f4203f459f4a3553837dfbf781e8c/8afe4026.jpg"
-   },
-   {
-      "userId": 321325,
-      "userName": "321325",
-      "total": 4,
-      "answeredQuestionMany": 4,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
       "userId": 287956,
@@ -119,6 +119,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
+      "userId": 316249,
+      "userName": "Sosuo",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
+   },
+   {
       "userId": 311916,
       "userName": "アカデミック・アドバイザー",
       "total": 1,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
-   },
-   {
-      "userId": 4,
-      "userName": "ZEN Study運営",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/491c0807b29214044d7a2ebccbbb7f88/niXC/zane/266a20e67c3b868482cf3ffebd62fa32/d54902a1.png"
    }
 ]
