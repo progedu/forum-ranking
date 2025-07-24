@@ -30,8 +30,8 @@
    {
       "userId": 252211,
       "userName": "一介の数学好き",
-      "total": 8,
-      "answeredQuestionMany": 5,
+      "total": 9,
+      "answeredQuestionMany": 6,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7619c67f49749da650d45d46636692c8/XLGv/zane/26e5977705020db3832dd7e75f378c7a/d43dcecb.png"
    },
    {
@@ -63,18 +63,18 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
    },
    {
+      "userId": 311916,
+      "userName": "アカデミック・アドバイザー",
+      "total": 3,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
       "userId": 310923,
       "userName": "ぽぽ",
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png"
-   },
-   {
-      "userId": 311916,
-      "userName": "アカデミック・アドバイザー",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
       "userId": 320967,
@@ -140,6 +140,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/9025eb86504fcd61dc9d2d26b9542116/5Hlr/zane/b5eade783398b397ca01535117559440/2eb3fb7d.png"
    },
    {
+      "userId": 220162,
+      "userName": "parakeet",
+      "total": 2,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/7fba7c89f46e800b4b43fc636977343a/TVlx/zane/b2bf3f6b0e97744626e5a79105649f73/fa2fd7cd.png"
+   },
+   {
       "userId": 302186,
       "userName": "アカデミック・アドバイザー",
       "total": 2,
@@ -159,6 +166,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/fc3c603cf1772eec927ca54ee10881e4/kYZs/zane/16b595f01183681cee10bed585d620cf/e0b74acd.png"
+   },
+   {
+      "userId": 295953,
+      "userName": "137+6",
+      "total": 2,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
    },
    {
       "userId": 320877,
@@ -194,19 +208,5 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
-   },
-   {
-      "userId": 301375,
-      "userName": "301375",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
-   },
-   {
-      "userId": 220162,
-      "userName": "parakeet",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/7fba7c89f46e800b4b43fc636977343a/TVlx/zane/b2bf3f6b0e97744626e5a79105649f73/fa2fd7cd.png"
    }
 ]
