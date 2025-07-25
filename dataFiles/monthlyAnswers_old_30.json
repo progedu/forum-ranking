@@ -16,8 +16,8 @@
    {
       "userId": 296216,
       "userName": "ゲスト",
-      "total": 17,
-      "answeredQuestionMany": 8,
+      "total": 19,
+      "answeredQuestionMany": 9,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
@@ -44,7 +44,7 @@
    {
       "userId": 291321,
       "userName": "ゲスト",
-      "total": 5,
+      "total": 7,
       "answeredQuestionMany": 4,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
@@ -68,6 +68,13 @@
       "total": 3,
       "answeredQuestionMany": 3,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
+      "userId": 228192,
+      "userName": "よーだ",
+      "total": 3,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
    },
    {
       "userId": 310923,
@@ -201,12 +208,5 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
-   },
-   {
-      "userId": 312267,
-      "userName": "ゲスト",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
    }
 ]
