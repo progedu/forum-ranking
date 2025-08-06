@@ -1,5 +1,26 @@
 [
    {
+      "userId": 273698,
+      "userName": "パンフィ",
+      "total": 4,
+      "answeredQuestionMany": 4,
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13945/139451942.jpg?1743721702"
+   },
+   {
+      "userId": 296216,
+      "userName": "ゲスト",
+      "total": 8,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
+   },
+   {
+      "userId": 323731,
+      "userName": "令和のエジソン",
+      "total": 5,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/8d9b4a547363e9244fde9f35a765689c/doIu/zane/c399e91aeef442de2469762312d2e16c/77db63d7.jpeg"
+   },
+   {
       "userId": 317610,
       "userName": "風みしん(かざみしん)",
       "total": 3,
@@ -7,16 +28,9 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/3bff1680dc40c4c6ef26b0997eca193a/VlM1/zane/a2302582857e329904a79b42e48c2afd/f675510b.jpg"
    },
    {
-      "userId": 296216,
-      "userName": "ゲスト",
-      "total": 5,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
-   },
-   {
       "userId": 64395,
       "userName": "seo",
-      "total": 2,
+      "total": 3,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png"
    },
@@ -35,25 +49,11 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
    },
    {
-      "userId": 273698,
-      "userName": "パンフィ",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13945/139451942.jpg?1743721702"
-   },
-   {
       "userId": 311916,
       "userName": "アカデミック・アドバイザー",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
-   },
-   {
-      "userId": 323731,
-      "userName": "323731",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png"
    },
    {
       "userId": 308756,
