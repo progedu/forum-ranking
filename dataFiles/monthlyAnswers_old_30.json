@@ -2,8 +2,8 @@
    {
       "userId": 321171,
       "userName": "321171",
-      "total": 12,
-      "answeredQuestionMany": 8,
+      "total": 13,
+      "answeredQuestionMany": 9,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/197b8eedbe4e33dcf75113e23d09cda6/Ex6b/zane/a77b3feda3918a311d33b42a97c8e8b7/226b9cb8.jpg"
    },
    {
@@ -70,6 +70,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png"
    },
    {
+      "userId": 241763,
+      "userName": "ガーバー明菜（教員）",
+      "total": 3,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/362837d5e92ab7e99a2eaba5d4fc95af/7sGx/zane/42a4f743748af7d3061150b4d44bc011/989f5f77.png"
+   },
+   {
       "userId": 302186,
       "userName": "アカデミック・アドバイザー",
       "total": 3,
@@ -82,6 +89,13 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
+   },
+   {
+      "userId": 321325,
+      "userName": "321325",
+      "total": 2,
+      "answeredQuestionMany": 2,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
    },
    {
       "userId": 16584,
@@ -168,13 +182,6 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
-      "userId": 241763,
-      "userName": "ガーバー明菜（教員）",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/362837d5e92ab7e99a2eaba5d4fc95af/7sGx/zane/42a4f743748af7d3061150b4d44bc011/989f5f77.png"
-   },
-   {
       "userId": 33110,
       "userName": "懺悔王",
       "total": 2,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
-   },
-   {
-      "userId": 310459,
-      "userName": "Z大学学生Kelvin",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/68f63d1daa02edb3c6d06abde16c07a2/pAaJ/zane/46ac2da167122ef86cce7dd32cd7811f/f109b95b.jpeg"
    }
 ]
