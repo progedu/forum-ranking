@@ -4564,6 +4564,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png"
    },
    {
+      "userId": 321442,
+      "userName": "ZEN Study運営",
+      "total": 6,
+      "answeredQuestionMany": 6,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/d9ae672af6271c0a8bd383dc2cf15285/7Rli/zane/07b75259b28eecb7de13e3d0265ad4cf/0b543c19.png"
+   },
+   {
       "userId": 321288,
       "userName": "TA",
       "total": 6,
@@ -5290,13 +5297,6 @@
       "total": 6,
       "answeredQuestionMany": 5,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png"
-   },
-   {
-      "userId": 321442,
-      "userName": "ZEN Study運営",
-      "total": 5,
-      "answeredQuestionMany": 5,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/d9ae672af6271c0a8bd383dc2cf15285/7Rli/zane/07b75259b28eecb7de13e3d0265ad4cf/0b543c19.png"
    },
    {
       "userId": 321621,
@@ -22156,7 +22156,7 @@
    },
    {
       "userId": 79120,
-      "userName": "あーちゃん",
+      "userName": "坂田アキラ",
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/cbbd3d8c318537e69dcdf9c4ffcc397f/BGpa/zane/799b3c923c127b055ae604a33604f56e/d2c631d8.jpg"
