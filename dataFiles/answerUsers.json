@@ -5761,6 +5761,13 @@
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/d3c80b1f0bb4a81958ab344ac9b71501/XgLT/zane/b0946d8bb410700707a94425fe2abed9/a8a92d2f.jpg"
    },
    {
+      "userId": 312267,
+      "userName": "ゲスト",
+      "total": 6,
+      "answeredQuestionMany": 4,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
+   },
+   {
       "userId": 294306,
       "userName": "DiamondGotCat",
       "total": 6,
@@ -9343,13 +9350,6 @@
       "total": 3,
       "answeredQuestionMany": 2,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
-   },
-   {
-      "userId": 312267,
-      "userName": "ゲスト",
-      "total": 3,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png"
    },
    {
       "userId": 308459,
@@ -13391,6 +13391,13 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
    },
    {
+      "userId": 277420,
+      "userName": "277420",
+      "total": 3,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
+   },
+   {
       "userId": 280788,
       "userName": "なな",
       "total": 3,
@@ -16392,6 +16399,20 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+   },
+   {
+      "userId": 278153,
+      "userName": "278153",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png"
+   },
+   {
+      "userId": 322601,
+      "userName": "きのこ",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://cdn.fccc.info/thumbnails/150x150c/5891a6d7fa110f609c7e92edb9c5bcab/MGV4/zane/a285dc3f055ee5ddad3d68de563c0255/fc76f660.png"
    },
    {
       "userId": 281461,
