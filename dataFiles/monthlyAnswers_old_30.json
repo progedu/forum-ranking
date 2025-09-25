@@ -16,8 +16,8 @@
    {
       "userId": 252211,
       "userName": "一介の数学好き",
-      "total": 4,
-      "answeredQuestionMany": 4,
+      "total": 5,
+      "answeredQuestionMany": 5,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7619c67f49749da650d45d46636692c8/XLGv/zane/26e5977705020db3832dd7e75f378c7a/d43dcecb.png"
    },
    {
@@ -33,6 +33,13 @@
       "total": 4,
       "answeredQuestionMany": 3,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/7a316c1b7f9683d8f6501d0e78723d02/1t8a/zane/93096d0df6e9d34fd6edfb54e2a1417f/8c5477c8.png"
+   },
+   {
+      "userId": 296216,
+      "userName": "ゲスト",
+      "total": 3,
+      "answeredQuestionMany": 3,
+      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
    },
    {
       "userId": 321442,
@@ -70,13 +77,6 @@
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
    },
    {
-      "userId": 296216,
-      "userName": "ゲスト",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
-   },
-   {
       "userId": 74127,
       "userName": "Winston Smith",
       "total": 2,
@@ -93,7 +93,7 @@
    {
       "userId": 277420,
       "userName": "277420",
-      "total": 3,
+      "total": 4,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png"
    },
@@ -131,6 +131,13 @@
       "total": 2,
       "answeredQuestionMany": 1,
       "icon": "https://cdn.fccc.info/thumbnails/150x150c/a1f8f890f4a74eba56fa509bc7373c08/23P7/zane/4335a272325f72d1bb6661d312504834/1719f746.jpg"
+   },
+   {
+      "userId": 325224,
+      "userName": "mii",
+      "total": 1,
+      "answeredQuestionMany": 1,
+      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/14166/141664660.jpg?1758523251"
    },
    {
       "userId": 278153,
@@ -201,12 +208,5 @@
       "total": 1,
       "answeredQuestionMany": 1,
       "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13999/139998859.jpg?1746764872"
-   },
-   {
-      "userId": 257106,
-      "userName": "柊",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-yellow.png"
    }
 ]
