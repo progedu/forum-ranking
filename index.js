@@ -7,7 +7,7 @@ function calc(monthlyAnswersNewJson, monthlyAnswersOldJson) {
     for (let [nowRank, nowValue] of monthlyRanking_new.entries()) {
         monthlyRanking_new[nowRank].change = `↑`; // 過去にはいないということは上昇！
         for (let [oldRank, oldValue] of monthlyRanking_old.entries()) {
-            if (nowValue.userId === oldValue.userId) { // 発見！
+            if (nowValue.icon_url === oldValue.icon_url) { // 発見！
                 if (nowRank > oldRank) {
                     monthlyRanking_new[nowRank].change = `↓`;
                 } else if (nowRank === oldRank) { // 不変;
@@ -37,7 +37,7 @@ function displayMonthly(monthlyRanking) {
                 class: 'list-group-item'
             });
             const imgDom = $('<img>', {
-                src: userObj.icon,
+                src: userObj.icon_url,
                 width: "48px",
                 css: { float: "left", marginRight: "10px" }
             });
@@ -52,10 +52,10 @@ function displayMonthly(monthlyRanking) {
                 css: { marginRight: "10px" }
             });
             const div1Dom = $('<span>', {
-                text: userObj.userName + ` さん`
+                text: userObj.nickname + ` さん`
             });
             const div2Dom = $('<div>', {
-                text: `貢献フォーラム数 ${userObj.answeredQuestionMany}、回答数 ${userObj.total}`,
+                text: `貢献フォーラム数 ${userObj.reply_count}、回答数 ${userObj.reply_count + userObj.replied_thread_count}`,
                 style: 'font-size: 98%;'
             });
             liDom.append(imgDom);
@@ -75,15 +75,15 @@ function displayAllSpan(allSpanUser) {
             class: 'list-group-item'
         });
         const imgDom = $('<img>', {
-            src: userObj.icon,
+            src: userObj.icon_url,
             width: "48px",
             css: { float: "left", marginRight: "10px" }
         });
         const div1Dom = $('<div>', {
-            text: '' + (index + 1) + '位 ' + userObj.userName + ' さん'
+            text: '' + (index + 1) + '位 ' + userObj.nickname + ' さん'
         });
         const div2Dom = $('<div>', {
-            html: `貢献フォーラム数 ${userObj.answeredQuestionMany}、回答数 ${userObj.total}`,
+            html: `貢献フォーラム数 ${userObj.reply_count}、回答数 ${userObj.reply_count + userObj.replied_thread_count}`,
             style: 'font-size: 95%;'
         });
         liDom.append(imgDom);
