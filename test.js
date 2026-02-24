@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const moment = require('moment-timezone');
 const fs = require('fs-extra');
+const axios = require('axios');
 
 const LIMIT_MAX = 50;
 const uneiUserId = 23189;
@@ -13,8 +14,60 @@ const thisDay = moment().tz("Asia/Tokyo").format('DD');
 const resultMonth = moment().tz("Asia/Tokyo").subtract(1, 'month').format('MM');
 console.log(`resultMonth = ${resultMonth}`);
 
+/**** API情報 ****/
+// 基本URL
+const apiBaseURL = `https://api.nnn.ed.nico/v3/forum/admin/ranking`;
+// 今月のパラメータ type
+const thisMonthParam = `type=current_month`;
+// 前月のパラメータ type
+const lastMonthParam = `type=last_month`;
+// 全期間
+const totalParam = `type=total`;
+
+/* チャンネルパラメータ channel_id
+2: #N中学
+3: #N高グループ
+4: #Vantan
+5: #近畿大学
+6: #全般
+7: #運営
+8: #大学受験
+9: #高校準備
+10: #語学
+11: #プログラミング
+*******/
+
 const resultYear = resultMonth == 12 ? thisYear - 1 : thisYear;
 let writeToMonthFileFlag = true;
+
+function fetchThisMonth() {
+    console.log('fetch this month data!');
+    axios.get(`${apiBaseURL}?${thisMonthParam}&channel_id=6`).then((response) => {
+        const thisMonthData = response.data.ranking;
+        fs.copyFileSync('dataFiles/monthlyAnswers_new_30.json', 'dataFiles/monthlyAnswers_old_30.json');
+        fs.writeFileSync('dataFiles/monthlyAnswers_new_30.json', JSON.stringify(thisMonthData, null, '   '));
+        console.log('write this month data to file!');
+    }).catch((e) => {
+        console.log(e);
+        console.log('retry anyway!');
+        setTimeout(fetchThisMonth, 1000 * 60);
+        return;
+    });
+}
+
+function fetchTotal() {
+    console.log('fetch total data!');
+    axios.get(`${apiBaseURL}?${totalParam}&channel_id=6`).then((response) => {
+        const totalData = response.data.ranking;
+        fs.writeFileSync('dataFiles/answerUsers_50.json', JSON.stringify(totalData, null, '   '));
+        console.log('write total data to file!');
+    }).catch((e) => {
+        console.log(e);
+        console.log('retry anyway!');
+        setTimeout(fetchTotal, 1000 * 60);
+        return;
+    });
+}
 
 function fetchForumAPI(offset, limit) {
     console.log(`offset = ${offset}, limit = ${limit}`);
@@ -101,6 +154,27 @@ function fetchForumAPI(offset, limit) {
     });
 }
 
+function fetchConroler(offset) {
+    fetchForumAPI(offset, LIMIT_MAX).then((nonQuestionAnswers) => {
+        if (nonQuestionAnswers === 'finish!') {
+            console.log('crowring finish');
+            writeToJsonFile(answerUsersMap, 'answerUsers.json');
+            fs.writeFileSync('dataFiles/noAnswerQuestions.json', JSON.stringify(noAnswerQuestions, null, '   '));
+            return;
+        }
+
+        // sucsess
+        const nestOffset = offset + LIMIT_MAX;
+        setTimeout(fetchConroler, 1000, nestOffset);
+
+    }).catch((e) => {
+        console.log(e);
+        console.log('retry anyway!');
+        setTimeout(fetchConroler, 1000 * 60, offset);
+        return;
+    });
+}
+
 function sortAnswersData(answersData) {
     return answersData.sort(function(a, b) {
         if (a.answeredQuestionMany > b.answeredQuestionMany) {
@@ -144,27 +218,7 @@ function writeToJsonFile(answerUsersMap, fileName) {
     }
 }
 
-function fetchConroler(offset) {
 
-    fetchForumAPI(offset, LIMIT_MAX).then((nonQuestionAnswers) => {
-        if (nonQuestionAnswers === 'finish!') {
-            console.log('crowring finish');
-            writeToJsonFile(answerUsersMap, 'answerUsers.json');
-            fs.writeFileSync('dataFiles/noAnswerQuestions.json', JSON.stringify(noAnswerQuestions, null, '   '));
-            return;
-        }
-
-        // sucsess
-        const nestOffset = offset + LIMIT_MAX;
-        setTimeout(fetchConroler, 1000, nestOffset);
-
-    }).catch((e) => {
-        console.log(e);
-        console.log('retry anyway!');
-        setTimeout(fetchConroler, 1000 * 60, offset);
-        return;
-    });
-}
 
 function takeResults() {
     prepareDirsSync();
@@ -187,11 +241,11 @@ function resultTextSync() {
         ``,
         `フォーラム名誉会員 ${Number(resultMonth)}月 の順位発表です。`,
         ``,
-        `１位 ${users[0].userName} さん！`,
-        `貢献フォーラム数 ${users[0].answeredQuestionMany}個 の大活躍でした。`,
+        `１位 ${users[0].nickname} さん！`,
+        `貢献フォーラム数 ${users[0].reply_count}個 の大活躍でした。`,
         ``,
-        `２位 ${users[1].userName} さん！ 貢献フォーラム数 ${users[1].answeredQuestionMany}個！`,
-        `３位 ${users[2].userName} さん！ 貢献フォーラム数 ${users[2].answeredQuestionMany}個！`,
+        `２位 ${users[1].nickname} さん！ 貢献フォーラム数 ${users[1].reply_count}個！`,
+        `３位 ${users[2].nickname} さん！ 貢献フォーラム数 ${users[2].reply_count}個！`,
         `となっております。`,
         ``,
         `以下 30位 までの順位は画像のようになっております。`,
@@ -205,41 +259,77 @@ function resultTextSync() {
 }
 
 function takeScreenshot() {
-    return new Promise(function(resolve, reject) {
-        (async() => {
-            const browser = await puppeteer.launch({
-                args: ['--no-sandbox', '--disable-setuid-sandbox'],
-                "defaultViewport": { "width": 1500, "height": 2600 }
+    return new Promise(async function(resolve, reject) {
+        const browser = await launchPuppeteer()
+        try {
+            console.log('new Page')
+            const page = await browser.newPage();
+            console.log('go to')
+            const response = await page.goto(`https://progedu.github.io/forum-ranking/`, { "waitUntil": "load" });
+            console.log('sleep')
+            await sleep(5000);
+            console.log('dom')
+            const element = await page.$('#monthly-ranking');
+            console.log('setViewport')
+            await page.setViewport({
+                width: 900,
+                height: 4800
             });
-            try {
-                const page = await browser.newPage();
-                const response = await page.goto(`https://progedu.github.io/forum-ranking/`, { "waitUntil": "networkidle0" });
-                const element = await page.$('#monthly-ranking');
-                const boundingBox = await element.boundingBox()
-                await page.screenshot({
-                    path: `results/${resultYear}/${resultMonth}/result-${resultYear}${resultMonth}.png`,
-                    clip: {
-                        x: Math.floor(boundingBox.x.toFixed(0)) - 4,
-                        y: Math.floor(boundingBox.y.toFixed(0)) - 4,
-                        width: Math.floor(boundingBox.width.toFixed(0)) + 8,
-                        height: Math.floor(boundingBox.height.toFixed(0)) + 8,
-                    }
-                });
+            console.log('boundingBox')
+            const boundingBox = await element.boundingBox()
+            console.log('screenshot')
+            await page.screenshot({
+                path: `results/${resultYear}/${resultMonth}/result-${resultYear}${resultMonth}.png`,
+                clip: {
+                    x: Math.floor(boundingBox.x.toFixed(0)) - 4,
+                    y: Math.floor(boundingBox.y.toFixed(0)) - 4,
+                    width: Math.floor(boundingBox.width.toFixed(0)) + 8,
+                    height: Math.floor(boundingBox.height.toFixed(0)) + 8,
+                }
+            });
 
-                await browser.close();
-                return resolve('sucsess and contiune');
-            } catch (e) {
-                await browser.close();
-                return reject(e);
-            }
-        })();
+            console.log('browser.close')
+            await browser.close();
+            return resolve('sucsess and contiune');
+        } catch (e) {
+            console.log('catch')
+            console.log(e);
+            await browser.close();
+            return reject(e);
+        }
     });
 }
 
+function launchPuppeteer() {
+     return new Promise(async function(resolve, reject) {
+        try {
+            const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+            console.log('puppeteer success!');
+            resolve(browser);
+        } catch (e) {
+            console.log('retry launch puppeteer!');
+            launchPuppeteer().then((browser) => {
+                resolve(browser);
+            });
+        }
+    });
+}
+
+function sleep(ms) {
+    return new Promise((resolve, reject) => {
+        setTimeout(resolve, ms);
+    });
+}
+
+
 if (thisDay == '01') {
     takeResults().then(() => {
-        fetchConroler(0);
+        fetchThisMonth();
+        fetchTotal();
+        // fetchConroler(0);
     });
 } else {
-    fetchConroler(0);
+    fetchThisMonth();
+    fetchTotal();
+    // fetchConroler(0);
 }

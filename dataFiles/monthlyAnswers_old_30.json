@@ -1,121 +1,149 @@
 [
    {
-      "userId": 75234,
-      "userName": "すずき＠世界一アイコンかわいい",
-      "total": 4,
-      "answeredQuestionMany": 3,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/2f96a2b0bb49a88dedaa20bc0d8c36a1/HfoZ/zane/a84a50f124ebf3ca40c7b569f6214a6a/639706d5.jpeg"
+      "rank": 1,
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png",
+      "reply_count": 3,
+      "replied_thread_count": 1
    },
    {
-      "userId": 299740,
-      "userName": "S_001",
-      "total": 3,
-      "answeredQuestionMany": 3,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/5039d47526635710edfe5ab038b2f8ef/f9Vn/zane/4e6f67a6f4f2a068942474d158972cd2/23479ecf.jpeg"
+      "rank": 1,
+      "nickname": "ひかり",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/04a5d615abc858705291314160c897fc/hEGQ/zane/af3ae207883e30ecde24d7ac24b9727b/885d4684.jpeg",
+      "reply_count": 2,
+      "replied_thread_count": 2
    },
    {
-      "userId": 320967,
-      "userName": "ZEN Study運営",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13999/139998859.jpg?1746764872"
+      "rank": 3,
+      "nickname": "パンフィ",
+      "icon_url": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13945/139451942.jpg?1743721702",
+      "reply_count": 2,
+      "replied_thread_count": 1
    },
    {
-      "userId": 4,
-      "userName": "ZEN Study運営",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/491c0807b29214044d7a2ebccbbb7f88/niXC/zane/266a20e67c3b868482cf3ffebd62fa32/d54902a1.png"
+      "rank": 3,
+      "nickname": "305074",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png",
+      "reply_count": 2,
+      "replied_thread_count": 1
    },
    {
-      "userId": 302187,
-      "userName": "アカデミック・アドバイザー",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png"
+      "rank": 3,
+      "nickname": "Stolen_Cream",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/d9660f3f08bf30a603196ddc6b0b1d74/jgbt/zane/112911cfce9eca3385fd9a5a196a552b/99b2a0f8.png",
+      "reply_count": 2,
+      "replied_thread_count": 1
    },
    {
-      "userId": 248207,
-      "userName": "まりさぽ",
-      "total": 2,
-      "answeredQuestionMany": 2,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/b36b0dd97ddaae377c794ad9d3192e29/tiW8/zane/5bc7168bd54f78af5e8c9deb3b1bb7aa/324e3ebc.jpeg"
+      "rank": 3,
+      "nickname": "酸素",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/3ab1045cbdace051a222e8e7535c9bdf/nmCO/zane/01be59a9c94214a491510aa77db1a982/adc71e89.jpg",
+      "reply_count": 2,
+      "replied_thread_count": 1
    },
    {
-      "userId": 296036,
-      "userName": "kisa",
-      "total": 3,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/ba6d97168224421b9837d555780d8855/esS5/zane/1257b083703c401850c8453b25687f63/826314bd.jpg"
+      "rank": 7,
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 290637,
-      "userName": "290637",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png"
+      "rank": 7,
+      "nickname": "セーヤ",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 296216,
-      "userName": "ゲスト",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png"
+      "rank": 7,
+      "nickname": "ドラ",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/6235294ae02410208622f9aa3cf1620b/7p1u/zane/2b572d9f707d296a322dc3af135c632d/ba15517a.jpg",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 268950,
-      "userName": "268950",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/d93d05e5c765712a9a5c5cd7ff701bc1/wxUY/zane/c137d5bbf31168bf32801cb76c6b134f/f51fbc0f.jpg"
+      "rank": 7,
+      "nickname": "soshi",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/6eabc9ba2c84c4fea9147c91110c772e/2s6Z/zane/c7d9707744d9738ccdc7d2e7d8e5dde9/2de585dc.jpg",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 295020,
-      "userName": "ミズライス",
-      "total": 2,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/7a316c1b7f9683d8f6501d0e78723d02/1t8a/zane/93096d0df6e9d34fd6edfb54e2a1417f/8c5477c8.png"
+      "rank": 7,
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-yellow.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 327671,
-      "userName": "zero1.pink",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png"
+      "rank": 7,
+      "nickname": "331742",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 298588,
-      "userName": "Nishi",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-purple.png"
+      "rank": 7,
+      "nickname": "山田",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 321171,
-      "userName": "321171",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/197b8eedbe4e33dcf75113e23d09cda6/Ex6b/zane/a77b3feda3918a311d33b42a97c8e8b7/226b9cb8.jpg"
+      "rank": 7,
+      "nickname": "佐藤琉聖",
+      "icon_url": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13297/132978647.jpg?1770521571",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 327539,
-      "userName": "アリジゴク",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/b0e043c02621811c53f0b80b0e143e8b/6s1n/zane/16a4d3365957d7070a828ad774571550/5cc732a6.jpg"
+      "rank": 7,
+      "nickname": "弥天",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/e6d65b70a57cef06423554d67d80560c/LeV2/zane/770ea0899c01e3edac32fe345ceb0bc5/5ea1848e.jpg",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 20565,
-      "userName": "もぎ まこと",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/a39e4c24ca381e451162adde690987b5/UVSX/zane/afec4cd72bb301f838bd3fc28fcc96ac/1325b6eb.png"
+      "rank": 7,
+      "nickname": "渡辺",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-orange.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
    },
    {
-      "userId": 289923,
-      "userName": "together",
-      "total": 1,
-      "answeredQuestionMany": 1,
-      "icon": "https://cdn.fccc.info/thumbnails/150x150c/fc3c603cf1772eec927ca54ee10881e4/kYZs/zane/16b595f01183681cee10bed585d620cf/e0b74acd.png"
+      "rank": 7,
+      "nickname": "キラキラ女神",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/d7eca57ae306f07d435ab501b66475f0/HCRm/zane/ca402052ce598771539ae322d5f792c4/21e05e4e.jpg",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 7,
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 7,
+      "nickname": "タオル",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/109f19b7bbc0d167788acef808a0d33d/UqQJ/zane/a9db1337f27415ce800e7f9063fd9324/4521e6fc.jpg",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 7,
+      "nickname": "303165",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 7,
+      "nickname": "306330",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
    }
 ]
