@@ -57,15 +57,15 @@
    },
    {
       "rank": 9,
-      "nickname": "ゲスト",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png",
+      "nickname": "わったー",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png",
       "reply_count": 2,
       "replied_thread_count": 1
    },
    {
       "rank": 9,
-      "nickname": "わったー",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png",
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png",
       "reply_count": 2,
       "replied_thread_count": 1
    },
@@ -108,6 +108,13 @@
       "rank": 11,
       "nickname": "ゲスト",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 11,
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png",
       "reply_count": 1,
       "replied_thread_count": 1
    },
