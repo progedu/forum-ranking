@@ -36,6 +36,13 @@
    },
    {
       "rank": 4,
+      "nickname": "323163",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png",
+      "reply_count": 2,
+      "replied_thread_count": 2
+   },
+   {
+      "rank": 4,
       "nickname": "ゲスト",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png",
       "reply_count": 2,
@@ -56,100 +63,114 @@
       "replied_thread_count": 1
    },
    {
-      "rank": 9,
+      "rank": 10,
       "nickname": "わったー",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-green.png",
       "reply_count": 2,
       "replied_thread_count": 1
    },
    {
-      "rank": 9,
+      "rank": 10,
       "nickname": "ゲスト",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-purple.png",
       "reply_count": 2,
       "replied_thread_count": 1
    },
    {
-      "rank": 11,
-      "nickname": "陰キャ男子ひろ氏",
-      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/ddeaa9d8d53db2a9cbc8049b90115ce2/TEsX/zane/5101032035cf8ce7cad84431dc298d14/af91e899.jpg",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "さくらんぼ",
-      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/c571520396aac8ca41c069ef058748b7/ObuX/zane/46ecf089ea45e003d2cbd877c117463e/b241540a.jpeg",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "きのこ",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "25N1105410",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "TI",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "ゲスト",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "ゲスト",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "あおくま/Aokuma",
-      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/96142052f3656275b91c187c1d341444/kXsF/zane/1d1926f8001471678a78436fc115aae0/38509738.jpg",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
-      "nickname": "剣先ツルギ",
-      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/df9e552fb8224bd642d373f31a427491/GXIc/zane/70e359eee81e94814cc27516bf3e0831/3ef49d13.jpeg",
-      "reply_count": 1,
-      "replied_thread_count": 1
-   },
-   {
-      "rank": 11,
+      "rank": 12,
       "nickname": "123",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-blue.png",
       "reply_count": 1,
       "replied_thread_count": 1
    },
    {
-      "rank": 11,
+      "rank": 12,
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "陰キャ男子ひろ氏",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/ddeaa9d8d53db2a9cbc8049b90115ce2/TEsX/zane/5101032035cf8ce7cad84431dc298d14/af91e899.jpg",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "さくらんぼ",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/c571520396aac8ca41c069ef058748b7/ObuX/zane/46ecf089ea45e003d2cbd877c117463e/b241540a.jpeg",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "きのこ",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-red.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "25N1105410",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-fuji.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "TI",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "ゲスト",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "剣先ツルギ",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/df9e552fb8224bd642d373f31a427491/GXIc/zane/70e359eee81e94814cc27516bf3e0831/3ef49d13.jpeg",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "あおくま/Aokuma",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/96142052f3656275b91c187c1d341444/kXsF/zane/1d1926f8001471678a78436fc115aae0/38509738.jpg",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "305074",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-red.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
       "nickname": "303165",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-a-green.png",
       "reply_count": 1,
       "replied_thread_count": 1
    },
    {
-      "rank": 11,
+      "rank": 12,
       "nickname": "ゲスト",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-yellow.png",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png",
+      "reply_count": 1,
+      "replied_thread_count": 1
+   },
+   {
+      "rank": 12,
+      "nickname": "み",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/a7a40b881e86184480896f60e2fb8259/ehmT/zane/6ae16b62d8183bde2a846688bee7b4c3/4a36e1bf.jpg",
       "reply_count": 1,
       "replied_thread_count": 1
    }
