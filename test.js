@@ -42,7 +42,7 @@ let writeToMonthFileFlag = true;
 
 function fetchThisMonth() {
     console.log('fetch this month data!');
-    axios.get(`${apiBaseURL}?${thisMonthParam}&channel_id=6`).then((response) => {
+    axios.get(`${apiBaseURL}?${thisMonthParam}`).then((response) => {
         const thisMonthData = response.data.ranking;
         fs.copyFileSync('dataFiles/monthlyAnswers_new_30.json', 'dataFiles/monthlyAnswers_old_30.json');
         fs.writeFileSync('dataFiles/monthlyAnswers_new_30.json', JSON.stringify(thisMonthData, null, '   '));
@@ -57,7 +57,7 @@ function fetchThisMonth() {
 
 function fetchTotal() {
     console.log('fetch total data!');
-    axios.get(`${apiBaseURL}?${totalParam}&channel_id=6`).then((response) => {
+    axios.get(`${apiBaseURL}?${totalParam}`).then((response) => {
         const totalData = response.data.ranking;
         fs.writeFileSync('dataFiles/answerUsers_50.json', JSON.stringify(totalData, null, '   '));
         console.log('write total data to file!');
