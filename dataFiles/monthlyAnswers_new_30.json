@@ -78,17 +78,17 @@
    },
    {
       "rank": 12,
-      "nickname": "りょう",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png",
-      "reply_count": 17,
-      "replied_thread_count": 4
-   },
-   {
-      "rank": 12,
       "nickname": "空き缶の末裔",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-purple.png",
       "reply_count": 14,
       "replied_thread_count": 7
+   },
+   {
+      "rank": 12,
+      "nickname": "りょう",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-red.png",
+      "reply_count": 17,
+      "replied_thread_count": 4
    },
    {
       "rank": 14,
@@ -120,17 +120,17 @@
    },
    {
       "rank": 18,
-      "nickname": "あゆな",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png",
-      "reply_count": 11,
-      "replied_thread_count": 5
-   },
-   {
-      "rank": 18,
       "nickname": "336407",
       "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-blue.png",
       "reply_count": 13,
       "replied_thread_count": 3
+   },
+   {
+      "rank": 18,
+      "nickname": "あゆな",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-c-orange.png",
+      "reply_count": 11,
+      "replied_thread_count": 5
    },
    {
       "rank": 20,
@@ -138,13 +138,6 @@
       "icon_url": "https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/13945/139451942.jpg?1743721702",
       "reply_count": 7,
       "replied_thread_count": 7
-   },
-   {
-      "rank": 21,
-      "nickname": "黄桜ℝ𝕦𝕞𝕒 3年生",
-      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/1b6c08e0773b92e1728581c92a667e3f/7Def/zane/55aea8ec494748e7b692aacfd2ca999e/fa0c556e.jpg",
-      "reply_count": 8,
-      "replied_thread_count": 5
    },
    {
       "rank": 21,
@@ -162,6 +155,13 @@
    },
    {
       "rank": 21,
+      "nickname": "ぽわ",
+      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png",
+      "reply_count": 8,
+      "replied_thread_count": 5
+   },
+   {
+      "rank": 21,
       "nickname": "ちな",
       "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/9a53baa18dc5dd0a0c6de1ea029c7cfa/mxZu/zane/530bcd6c9dc27c4414af938102f89f12/9fab36fc.jpg",
       "reply_count": 9,
@@ -169,8 +169,8 @@
    },
    {
       "rank": 21,
-      "nickname": "ぽわ",
-      "icon_url": "https://cdn.nnn.ed.nico/images/icons/icon-user-b-green.png",
+      "nickname": "黄桜ℝ𝕦𝕞𝕒 3年生",
+      "icon_url": "https://cdn.fccc.info/thumbnails/150x150c/1b6c08e0773b92e1728581c92a667e3f/7Def/zane/55aea8ec494748e7b692aacfd2ca999e/fa0c556e.jpg",
       "reply_count": 8,
       "replied_thread_count": 5
    }
